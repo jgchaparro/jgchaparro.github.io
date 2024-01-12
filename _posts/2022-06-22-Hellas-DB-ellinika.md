@@ -9,7 +9,7 @@ pin: false
 mermaid: true
 image:
   path: /assets/2022-06-22-Hellas-DB-ellinika/dashboard.png
-  alt: Hellas DB: μία δημογραφική βάση δεδομένων για όλη την Ελλάδα
+  alt: Hellas DB μία δημογραφική βάση δεδομένων για όλη την Ελλάδα
 ---
 
 # Hellas DB: μία δημογραφική βάση δεδομένων για όλη την Ελλάδα
