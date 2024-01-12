@@ -6,7 +6,7 @@ categories: [Ελληνικά, Data Science]
 tags: [Ελληνικά]
 pin: false
 # math: true
-# mermaid: true
+mermaid: true
 image:
   path: /assets/2022-06-22-Hellas-DB-ellinika/dashboard.png
   alt: Hellas DB: μία δημογραφική βάση δεδομένων για όλη την Ελλάδα
