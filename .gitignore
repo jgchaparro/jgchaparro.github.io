@@ -19,3 +19,6 @@ package-lock.json
 
 # Misc
 assets/js/dist
+
+# Posts
+_posts/2023-06-25-test-post.md
