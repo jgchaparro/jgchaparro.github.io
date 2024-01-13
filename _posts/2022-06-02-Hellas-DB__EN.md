@@ -1,9 +1,9 @@
 ---
 title: Hellas DB - a demographic database for Greece
 author: Jaime García Chaparro
-date: 2022-06-22 17:00:00 +0200
-categories: [Español, Data Science, Projects]
-tags: [español, projects]
+date: 2022-06-02 17:00:00 +0200
+categories: [English, Data Science, Projects]
+tags: [english, projects]
 pin: false
 # math: true
 mermaid: true
