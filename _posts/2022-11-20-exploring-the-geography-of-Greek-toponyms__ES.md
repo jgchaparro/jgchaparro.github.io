@@ -130,7 +130,7 @@ Due to space limitations, you can find the table with the distribution for each 
 ## Otros datos
 
 * Hay 51 nombres de ciudades que contienen ϊ y 21 que contienen ΐ, ambos caracteres inusuales en el idioma griego usados para romper diptongos, equivalentes a la «ü» en español.
-* La única población que contiene ϋ en su nombre es [el pequeño pueblo de Ταϋγέτη]((https://el.wikipedia.org/wiki/%CE%A4%CE%B1%CF%8B%CE%B3%CE%AD%CF%84%CE%B7_%CE%9B%CE%B1%CE%BA%CF%89%CE%BD%CE%AF%CE%B1%CF%82)) (Taygeti), cerca de Esparta.
+* La única población que contiene ϋ en su nombre es [el pequeño pueblo de Ταϋγέτη](https://el.wikipedia.org/wiki/%CE%A4%CE%B1%CF%8B%CE%B3%CE%AD%CF%84%CE%B7_%CE%9B%CE%B1%CE%BA%CF%89%CE%BD%CE%AF%CE%B1%CF%82) (Taygeti), cerca de Esparta.
 
 * El pueblo de de Παληοχώρα (Paliochora), en Argólida, es la única ciudad catalogada que contiene -ηο- (-io-) en su nombre.
 * De media, los topónimos griegos de una sola palabra tienen 9 letras.
