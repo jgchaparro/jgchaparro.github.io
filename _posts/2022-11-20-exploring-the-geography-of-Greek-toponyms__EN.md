@@ -12,9 +12,9 @@ image:
   alt: Exploring the geography of Greek toponyms
 ---
 
-Aside from its millenary history, rich culture and friendly inhabitants, Greece offers a plethora of interesting topics to research to both native and foreigners. Full of mountains and scattered islands, its diverse geography contains a myriad of toponims that hides curious stories and patterns. In this article, we will have a look at them using data analysis techniques.
+Aside from its millenary history, rich culture and friendly inhabitants, Greece offers a plethora of interesting topics to research to both native and foreigners. Full of mountains and scattered islands, its diverse geography contains a myriad of toponyms that hides curious stories and patterns. In this article, we will have a look at them using data analysis techniques.
 
-The base for this study is the Hellas DB, which collects information about Greek towns and other locations, as well as coordinates for most of them, based on official data from the Hellenic Statistical Service. To perform the calculations, monasteries and uninhabited islets have been removed from the table.
+The base for this study is the [Hellas DB](https://jgchaparro.github.io/posts/Hellas-DB__EN/), which collects information about Greek towns and other locations, as well as coordinates for most of them, based on official data from the Hellenic Statistical Service. To perform the calculations, monasteries and uninhabited islets have been removed from the table.
 
 ## A quick introduction to Greece’s administrative division
 
@@ -109,20 +109,15 @@ The Greek language has three genders (masculine, femenine and neuter) and two nu
 * Femenine articles: singular η (i), plural οι (oi, read as “i” too) in the popular Greek and αι in the conservative Greek (ai, read as “e”), which is used in the database to distiguish femenine and masculine plurals.
 * Neuter articles: singular το (to) and plural τα (ta)
   
-<center>
 
 ![](/assets/2022-11-20-exploring-the-geography-of-Greek-toponyms/16__EN.png)
-
-*Number of towns by article gender and number*
-</center>
+*<center>Number of towns by article gender and number</center>*
 
 Overall, we see that the femenine singular toponyms are the most frequent, followed by the neuter singular. On the other end, the femenine plural is the rarest of all. Altough singular names are far more frequent, it is interesting to see how neuter plural toponyms are far easier to find. This is mainly due to the plethora of neuter plural suffixes we addressed in the first sections of the article.
 
 Nevertheless, the distribution of genders and numbers can vary greatly across different regions due to different naming patterns, as shown in the image below.
-<center>
   ![](/assets/2022-11-20-exploring-the-geography-of-Greek-toponyms/17__EN.png)
-  *Gender and number distribution of toponyms by region*
-</center>
+*<center>Gender and number distribution of toponyms by region</center>*
 
 Taking a closer look at the graphs, we can infer a clear difference between island regions (North and South Aegean, Crete and the Ionian Islands) and the mainland. Islands use femenine singular names far less frequently and favour masculine singular denominations. The case of the Ionian Islands is specially striking: it is the only region in which neuter plural names dominate due to the heavy use of the suffixes -άτα (-áta), -άνικα (- ánika) and, to a lesser extent, -αίικα (-aíika).
 
@@ -139,13 +134,10 @@ Due to space limitations, you can find the table with the distribution for each 
 * The town of Παληοχώρα (Paliochora), in Argolis, is the only listed town cointaining -ηο- (-io-) in its name.
 * On average, Greek toponyms are 9 letters long.
 
-<center>
+![](/assets/2022-11-20-exploring-the-geography-of-Greek-toponyms/19__EN.png)
 
-  ![](/assets/2022-11-20-exploring-the-geography-of-Greek-toponyms/19__EN.png)
 
-</center>
-
-* The longest one-word toponym is Σταματογιανναίικα (Stamatogiannaiíka) in Aetolia-Acarnania, with 17 letters.
+* The longest one-word toponym is [Σταματογιανναίικα](https://el.wikipedia.org/wiki/%CE%A3%CF%84%CE%B1%CE%BC%CE%B1%CF%84%CE%BF%CE%B3%CE%B9%CE%B1%CE%BD%CE%BD%CE%B1%CE%AF%CE%B9%CE%BA%CE%B1_%CE%91%CE%B9%CF%84%CF%89%CE%BB%CE%BF%CE%B1%CE%BA%CE%B1%CF%81%CE%BD%CE%B1%CE%BD%CE%AF%CE%B1%CF%82) (Stamatogiannaiíka) in Aetolia-Acarnania, with 17 letters.
 * The prize to the shortest toponym goes to the [island of Ρω](https://en.wikipedia.org/wiki/Ro,_Greece) (Ro), home of the famous [Lady of Ro](https://en.wikipedia.org/wiki/Lady_of_Ro), who lived alone on the island and raised the Greek flag everyday since 1943 until her death in 1982.
 
 ## Conclusions
