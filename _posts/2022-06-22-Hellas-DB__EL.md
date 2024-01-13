@@ -2,13 +2,13 @@
 title: Hellas DB - μία δημογραφική βάση δεδομένων για όλη την Ελλάδα
 author: Jaime García Chaparro
 date: 2022-06-22 17:00:00 +0200
-categories: [Ελληνικά, Data Science]
-tags: [Ελληνικά]
+categories: [Ελληνικά, Data Science, Projects]
+tags: [ελληνικά, projects]
 pin: false
 # math: true
 mermaid: true
 image:
-  path: /assets/2022-06-22-Hellas-DB-ellinika/dashboard.png
+  path: /assets/2022-06-22-Hellas-DB/dashboard.png
   alt: Hellas DB μία δημογραφική βάση δεδομένων για όλη την Ελλάδα
 ---
 
