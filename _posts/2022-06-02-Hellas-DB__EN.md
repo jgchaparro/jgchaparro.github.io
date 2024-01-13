@@ -8,7 +8,7 @@ pin: false
 # math: true
 mermaid: true
 image:
-  path: /assets/2022-06-22-Hellas-DB/dashboard.png
+  path: /assets/2022-06-02-Hellas-DB/dashboard.png
   alt: Hellas DB - a demographic database for Greece
 ---
 
