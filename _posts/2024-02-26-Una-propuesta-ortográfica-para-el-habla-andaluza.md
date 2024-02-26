@@ -8,8 +8,8 @@ pin: false
 # math: true
 mermaid: false
 image:
-  path: /assets/2023-09-05-Cyprus-DB/CyprusDB-logo.jpeg
-  alt: CyprusDB logo
+  path: /assets/2024-02-26-Una-propuesta-ortográfica-para-el-habla-andaluza/sample_text.jpeg
+  alt: Ʌeьʌo de mueьʌra
 ---
 
 # Una propueьʌa orʌoƨráfica pa'l aбla andaluɿa
