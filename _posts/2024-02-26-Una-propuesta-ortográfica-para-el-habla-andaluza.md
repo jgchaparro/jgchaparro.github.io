@@ -8,7 +8,7 @@ pin: false
 # math: true
 mermaid: false
 image:
-  path: /assets/2024-02-26-Una-propuesta-ortográfica-para-el-habla-andaluza/sample_text.jpeg
+  path: /assets/2024-02-26-Una-propuesta-ortográfica-para-el-habla-andaluza/sample_text.jpg
   alt: Ʌeьʌo de mueьʌra
 ---
 
