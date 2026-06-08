@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#003366" />
+      <stop offset="100%" stop-color="#054899" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#bg)" />
+  <circle cx="200" cy="155" r="68" fill="#ffffff" opacity="0.92" />
+  <path
+    d="M200 250c-66 0-120 40-120 92v58h240v-58c0-52-54-92-120-92z"
+    fill="#ffffff"
+    opacity="0.92"
+  />
+  <text
+    x="200" y="372" text-anchor="middle"
+    font-family="Inter, sans-serif" font-size="22" font-weight="600"
+    fill="#ffffff" opacity="0.55"
+  >JGC</text>
+</svg>

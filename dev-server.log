@@ -1,0 +1,428 @@
+
+> jgchaparro-com@0.1.0 dev
+> astro dev
+
+[2m09:20:08[22m [34m[types][39m Generated [2m2ms[22m
+[2m09:20:09[22m [34m[content][39m Syncing content
+[2m09:20:09[22m [34m[content][39m Synced content
+
+[42m[1m astro [22m[49m [32mv5.18.2[39m [2mready in[22m 3091 [2mms[22m
+
+[2m┃[22m Local    [36mhttp://localhost:4321/[39m
+[2m┃[22m Network  [2muse --host to expose[22m
+
+[2m09:20:09[22m [32mwatching for file changes...[39m
+[2m09:20:11[22m [34m[200][39m /en/ [2m279ms[22m
+[2m09:20:53[22m [33m[302][39m / [2m5ms[22m
+[2m09:20:53[22m [34m[200][39m /en/ [2m4ms[22m
+[2m09:21:02[22m [33m[302][39m / [2m5ms[22m
+[2m09:21:02[22m [34m[200][39m /en/ [2m11ms[22m
+[2m09:21:08[22m [34m[200][39m /en/ [2m6ms[22m
+[2m09:21:28[22m [33m[404][39m /resume.pdf [2m2ms[22m
+[2m09:36:42[22m [33m[302][39m / [2m4ms[22m
+[2m09:36:42[22m [34m[200][39m /en/ [2m7ms[22m
+[2m09:36:44[22m [34m[watch][39m src/pages/en/index.astro
+[2m09:36:44[22m [34m[watch][39m src/pages/en/index.astro
+[2m09:36:44[22m [34m[200][39m /en/ [2m227ms[22m
+[2m09:36:44[22m [34m[200][39m /en/ [2m15ms[22m
+[2m09:37:00[22m [34m[200][39m /en/ [2m6ms[22m
+[2m09:37:00[22m [34m[200][39m /en/ [2m4ms[22m
+[2m09:37:01[22m [34m[200][39m /en/ [2m4ms[22m
+[2m09:37:02[22m [34m[200][39m /en/ [2m7ms[22m
+[2m09:39:50[22m [34m[200][39m /en/career [2m10ms[22m
+[2m09:40:03[22m [34m[200][39m /en/ [2m6ms[22m
+[2m09:40:05[22m [34m[200][39m /en/career [2m8ms[22m
+[2m09:41:57[22m [34m[200][39m /en/research [2m14ms[22m
+[2m09:53:06[22m [34m[200][39m /en/blog [2m25ms[22m
+[2m09:53:34[22m [34m[200][39m /en/career [2m5ms[22m
+[2m09:53:37[22m [34m[200][39m /en/ [2m6ms[22m
+[2m09:53:46[22m [34m[200][39m /en/career [2m10ms[22m
+[2m09:53:47[22m [34m[200][39m /en/research [2m7ms[22m
+[2m09:53:48[22m [34m[200][39m /en/blog [2m6ms[22m
+[2m09:54:32[22m [34m[200][39m /en/ [2m4ms[22m
+[2m09:54:32[22m [34m[200][39m /en/blog [2m4ms[22m
+[2m09:54:38[22m [34m[watch][39m src/pages/en/index.astro
+[2m09:54:38[22m [34m[watch][39m src/pages/en/index.astro
+[2m09:54:39[22m [34m[200][39m /en/ [2m94ms[22m
+[2m09:54:39[22m [34m[200][39m /en/blog [2m99ms[22m
+[2m09:54:42[22m [34m[watch][39m src/pages/en/index.astro
+[2m09:54:42[22m [34m[watch][39m src/pages/en/index.astro
+[2m09:54:43[22m [34m[200][39m /en/ [2m92ms[22m
+[2m09:54:43[22m [34m[200][39m /en/blog [2m95ms[22m
+[2m09:54:46[22m [34m[watch][39m src/components/Card.astro
+[2m09:54:46[22m [34m[watch][39m src/components/Card.astro
+[2m09:54:48[22m [34m[200][39m /en/ [2m93ms[22m
+[2m09:54:48[22m [34m[200][39m /en/blog [2m86ms[22m
+[2m09:54:52[22m [34m[watch][39m src/components/Card.astro
+[2m09:54:52[22m [34m[watch][39m src/components/Card.astro
+[2m09:54:53[22m [34m[200][39m /en/ [2m90ms[22m
+[2m09:54:53[22m [34m[200][39m /en/blog [2m83ms[22m
+[2m09:59:05[22m [34m[200][39m /en/ [2m6ms[22m
+[2m09:59:14[22m [34m[watch][39m src/pages/en/index.astro
+[2m09:59:14[22m [34m[watch][39m src/pages/en/index.astro
+[2m09:59:15[22m [34m[200][39m /en/ [2m86ms[22m
+[2m09:59:15[22m [34m[200][39m /en/ [2m86ms[22m
+[2m09:59:15[22m [33m[404][39m /images/profile.jpg [2m1ms[22m
+[2m09:59:15[22m [33m[404][39m /images/profile.jpg [2m1ms[22m
+[2m09:59:15[22m [33m[404][39m /images/profile.jpg [2m0ms[22m
+[2m09:59:15[22m [33m[404][39m /images/profile.jpg [2m0ms[22m
+[2m09:59:19[22m [34m[watch][39m src/pages/en/index.astro
+[2m09:59:19[22m [34m[watch][39m src/pages/en/index.astro
+[2m09:59:20[22m [34m[200][39m /en/ [2m80ms[22m
+[2m09:59:20[22m [34m[200][39m /en/ [2m80ms[22m
+[2m09:59:22[22m [34m[200][39m /en/ [2m5ms[22m
+[2m09:59:22[22m [34m[200][39m /en/ [2m5ms[22m
+[2m09:59:25[22m [34m[200][39m /en/ [2m3ms[22m
+[2m09:59:25[22m [34m[200][39m /en/ [2m3ms[22m
+[2m09:59:39[22m [34m[watch][39m src/pages/en/index.astro
+[2m09:59:39[22m [34m[watch][39m src/pages/en/index.astro
+[2m09:59:40[22m [34m[200][39m /en/ [2m200ms[22m
+[2m09:59:40[22m [34m[200][39m /en/ [2m200ms[22m
+[2m09:59:48[22m [34m[200][39m /en/ [2m5ms[22m
+[2m10:00:20[22m [34m[watch][39m src/pages/en/index.astro
+[2m10:00:20[22m [34m[watch][39m src/pages/en/index.astro
+[2m10:00:21[22m [34m[200][39m /en/ [2m84ms[22m
+[2m10:00:21[22m [34m[200][39m /en/ [2m84ms[22m
+[2m10:00:28[22m [34m[200][39m /en/ [2m6ms[22m
+[2m10:00:31[22m [34m[200][39m /en/ [2m4ms[22m
+[2m10:01:54[22m [34m[200][39m /en/ [2m4ms[22m
+[2m10:02:06[22m [34m[watch][39m src/pages/en/index.astro
+[2m10:02:06[22m [34m[watch][39m src/pages/en/index.astro
+[2m10:02:06[22m [34m[200][39m /en/ [2m212ms[22m
+[2m10:02:06[22m [34m[200][39m /en/ [2m18ms[22m
+[2m10:02:06[22m [34m[200][39m /en/ [2m17ms[22m
+[2m10:02:18[22m [34m[200][39m /en/ [2m4ms[22m
+[2m10:02:20[22m [34m[200][39m /en/ [2m5ms[22m
+[2m10:02:30[22m [34m[200][39m /en/research [2m10ms[22m
+[2m10:06:38[22m [34m[watch][39m src/components/Card.astro
+[2m10:06:38[22m [34m[watch][39m src/components/Card.astro
+[2m10:06:39[22m [34m[200][39m /en/ [2m330ms[22m
+[2m10:06:39[22m [34m[200][39m /en/research [2m301ms[22m
+[2m10:06:45[22m [34m[200][39m /en/ [2m6ms[22m
+[2m10:06:45[22m [34m[200][39m /en/research [2m7ms[22m
+[2m10:11:14[22m [34m[200][39m /en/research [2m7ms[22m
+[2m10:11:51[22m [34m[200][39m /en/ [2m5ms[22m
+[2m10:11:57[22m [34m[200][39m /en/research [2m5ms[22m
+[2m10:11:59[22m [34m[200][39m /en/career [2m5ms[22m
+[2m10:12:11[22m [34m[200][39m /en/blog [2m8ms[22m
+[2m10:15:35[22m [34m[watch][39m src/pages/en/index.astro
+[2m10:15:35[22m [34m[watch][39m src/pages/en/index.astro
+[2m10:15:36[22m [34m[200][39m /en/blog [2m229ms[22m
+[2m10:15:39[22m [34m[200][39m /en/career [2m7ms[22m
+[2m10:15:40[22m [34m[watch][39m src/components/TimelineItem.astro
+[2m10:15:40[22m [34m[watch][39m src/components/TimelineItem.astro
+[2m10:15:40[22m [34m[200][39m /en/career [2m179ms[22m
+[2m10:15:47[22m [34m[watch][39m src/components/TimelineItem.astro
+[2m10:15:47[22m [34m[watch][39m src/components/TimelineItem.astro
+[2m10:15:47[22m [34m[200][39m /en/career [2m212ms[22m
+[2m10:15:52[22m [34m[200][39m /en/research [2m8ms[22m
+[2m10:15:53[22m [34m[200][39m /en/blog [2m7ms[22m
+[2m10:15:54[22m [34m[200][39m /en/career [2m7ms[22m
+[2m10:15:55[22m [34m[watch][39m src/pages/en/career.astro
+[2m10:15:55[22m [34m[watch][39m src/pages/en/career.astro
+[2m10:15:56[22m [34m[200][39m /en/career [2m234ms[22m
+[2m10:15:56[22m [34m[200][39m /en/ [2m5ms[22m
+[2m10:15:57[22m [34m[200][39m /en/career [2m5ms[22m
+[2m10:16:02[22m [34m[watch][39m src/pages/en/career.astro
+[2m10:16:02[22m [34m[watch][39m src/pages/en/career.astro
+[2m10:16:03[22m [34m[200][39m /en/career [2m213ms[22m
+[2m10:16:54[22m [34m[watch][39m src/pages/en/career.astro
+[2m10:16:54[22m [34m[watch][39m src/pages/en/career.astro
+[2m10:16:55[22m [34m[200][39m /en/career [2m214ms[22m
+[2m10:17:00[22m [34m[watch][39m src/components/TimelineItem.astro
+[2m10:17:00[22m [34m[watch][39m src/components/TimelineItem.astro
+[2m10:17:02[22m [34m[200][39m /en/career [2m217ms[22m
+[2m10:21:05[22m [34m[watch][39m src/pages/en/career.astro
+[2m10:21:05[22m [34m[watch][39m src/pages/en/career.astro
+[2m10:21:06[22m [34m[200][39m /en/career [2m292ms[22m
+[2m10:21:30[22m [34m[watch][39m src/pages/en/career.astro
+[2m10:21:30[22m [34m[watch][39m src/pages/en/career.astro
+[2m10:21:31[22m [34m[200][39m /en/career [2m79ms[22m
+[2m10:21:41[22m [34m[200][39m /en/career [2m6ms[22m
+[2m10:21:48[22m [34m[200][39m /en/research [2m9ms[22m
+[2m10:22:49[22m [34m[200][39m /en/research [2m3ms[22m
+[2m10:22:58[22m [34m[200][39m /en/research [2m7ms[22m
+[2m10:23:18[22m [34m[200][39m /en/research [2m4ms[22m
+[2m10:23:20[22m [34m[200][39m /en/research [2m3ms[22m
+[2m10:23:23[22m [34m[200][39m /en/research [2m3ms[22m
+[2m10:23:28[22m [34m[200][39m /en/research [2m4ms[22m
+[2m10:23:33[22m [34m[200][39m /en/research [2m4ms[22m
+[2m10:23:39[22m [34m[200][39m /en/research [2m4ms[22m
+[2m10:23:44[22m [34m[200][39m /en/research [2m4ms[22m
+[2m10:23:46[22m [34m[200][39m /en/research [2m3ms[22m
+[2m10:23:51[22m [34m[200][39m /en/research [2m8ms[22m
+[2m10:24:17[22m [34m[200][39m /en/blog [2m9ms[22m
+[2m10:24:18[22m [34m[200][39m /en/research [2m7ms[22m
+[2m10:24:19[22m [34m[200][39m /en/blog [2m4ms[22m
+[2m10:24:22[22m [34m[200][39m /en/career [2m4ms[22m
+[2m10:24:24[22m [34m[200][39m /en/ [2m5ms[22m
+[2m10:25:12[22m [34m[watch][39m src/pages/en/index.astro
+[2m10:25:12[22m [34m[watch][39m src/pages/en/index.astro
+[2m10:25:14[22m [34m[200][39m /en/ [2m94ms[22m
+[2m10:25:27[22m [34m[200][39m /en/ [2m4ms[22m
+[2m10:25:33[22m [34m[watch][39m src/pages/en/career.astro
+[2m10:25:33[22m [34m[watch][39m src/pages/en/career.astro
+[2m10:25:33[22m [34m[200][39m /en/ [2m207ms[22m
+[2m10:25:47[22m [34m[200][39m /en/research [2m6ms[22m
+[2m10:25:48[22m [34m[200][39m /en/career [2m7ms[22m
+[2m10:26:17[22m [34m[watch][39m src/pages/en/career.astro
+[2m10:26:17[22m [34m[watch][39m src/pages/en/career.astro
+[2m10:26:18[22m [34m[200][39m /en/career [2m87ms[22m
+[2m10:26:25[22m [34m[200][39m /en/career [2m6ms[22m
+[2m10:26:50[22m [34m[200][39m /en/career [2m4ms[22m
+[2m10:26:53[22m [34m[200][39m /en/research [2m6ms[22m
+[2m10:26:56[22m [34m[watch][39m src/pages/en/career.astro
+[2m10:26:56[22m [34m[watch][39m src/pages/en/career.astro
+[2m10:26:57[22m [34m[200][39m /en/research [2m194ms[22m
+[2m10:30:05[22m [34m[200][39m /en/research [2m4ms[22m
+[2m10:30:28[22m [34m[200][39m /en/research [2m9ms[22m
+[2m10:30:52[22m [34m[glob-loader][39m Reloaded data from [32mciencia-de-datos-explicada-a-mis-abuelos.md[39m
+[2m10:30:53[22m [34m[200][39m /en/research [2m4ms[22m
+[2m10:31:30[22m [34m[200][39m /en/blog [2m19ms[22m
+[2m10:31:32[22m [34m[200][39m /en/blog/ciencia-de-datos-explicada-a-mis-abuelos [2m8ms[22m
+[2m10:32:03[22m [34m[200][39m /en/blog [2m4ms[22m
+[2m10:32:03[22m [34m[200][39m /en/blog/ciencia-de-datos-explicada-a-mis-abuelos [2m3ms[22m
+[2m10:32:08[22m [34m[watch][39m src/components/Card.astro
+[2m10:32:08[22m [34m[watch][39m src/components/Card.astro
+[2m10:32:09[22m [34m[200][39m /en/blog/ciencia-de-datos-explicada-a-mis-abuelos [2m109ms[22m
+[2m10:32:09[22m [34m[200][39m /en/blog [2m100ms[22m
+[2m10:32:13[22m [34m[watch][39m src/components/Card.astro
+[2m10:32:13[22m [34m[watch][39m src/components/Card.astro
+[2m10:32:15[22m [34m[200][39m /en/blog/ciencia-de-datos-explicada-a-mis-abuelos [2m90ms[22m
+[2m10:32:15[22m [34m[200][39m /en/blog [2m82ms[22m
+[2m10:32:26[22m [34m[watch][39m src/components/Card.astro
+[2m10:32:26[22m [34m[watch][39m src/components/Card.astro
+[2m10:32:27[22m [34m[200][39m /en/blog/ciencia-de-datos-explicada-a-mis-abuelos [2m79ms[22m
+[2m10:32:27[22m [34m[200][39m /en/blog [2m72ms[22m
+[2m10:32:32[22m [34m[watch][39m src/content/blog/ciencia-de-datos-explicada-a-mis-abuelos.md
+[2m10:32:32[22m [34m[watch][39m src/content/blog/ciencia-de-datos-explicada-a-mis-abuelos.md
+[33m[1m10:32:32[22m [WARN] [glob-loader][39m Duplicate id "ciencia-de-datos-explicada-a-mis-abuelos" found in C:\Users\jgarciach\Desktop\Código\Pers\jgchaparro.com\src\content\blog\ciencia-de-datos-explicada-a-mis-abuelos.md. Later items with the same id will overwrite earlier ones.
+[2m10:32:32[22m [34m[glob-loader][39m Reloaded data from [32mciencia-de-datos-explicada-a-mis-abuelos.md[39m
+[2m10:32:33[22m [34m[200][39m /en/blog/ciencia-de-datos-explicada-a-mis-abuelos [2m217ms[22m
+[2m10:32:33[22m [34m[200][39m /en/blog [2m223ms[22m
+[2m10:32:44[22m [34m[watch][39m src/pages/en/blog/index.astro
+[2m10:32:44[22m [34m[watch][39m src/pages/en/blog/index.astro
+[2m10:32:45[22m [34m[200][39m /en/blog [2m224ms[22m
+[2m10:32:45[22m [34m[200][39m /en/blog/ciencia-de-datos-explicada-a-mis-abuelos [2m9ms[22m
+[2m10:33:43[22m [34m[200][39m /en/blog [2m10ms[22m
+[2m10:33:45[22m [34m[200][39m /en/blog/ciencia-de-datos-explicada-a-mis-abuelos [2m5ms[22m
+[2m10:34:06[22m [34m[watch][39m src/components/TimelineItem.astro
+[2m10:34:06[22m [34m[watch][39m src/components/TimelineItem.astro
+[2m10:34:07[22m [34m[200][39m /en/blog/ciencia-de-datos-explicada-a-mis-abuelos [2m77ms[22m
+[2m10:34:07[22m [34m[200][39m /en/blog [2m78ms[22m
+[2m10:34:07[22m [34m[200][39m /en/blog/ciencia-de-datos-explicada-a-mis-abuelos [2m3ms[22m
+[2m10:34:12[22m [34m[watch][39m src/components/TimelineItem.astro
+[2m10:34:12[22m [34m[watch][39m src/components/TimelineItem.astro
+[2m10:34:13[22m [34m[200][39m /en/blog/ciencia-de-datos-explicada-a-mis-abuelos [2m218ms[22m
+[2m10:34:13[22m [34m[200][39m /en/blog [2m216ms[22m
+[2m10:34:13[22m [34m[200][39m /en/blog/ciencia-de-datos-explicada-a-mis-abuelos [2m7ms[22m
+[2m10:34:23[22m [34m[watch][39m src/pages/en/career.astro
+[2m10:34:23[22m [34m[watch][39m src/pages/en/career.astro
+[2m10:34:24[22m [34m[200][39m /en/blog/ciencia-de-datos-explicada-a-mis-abuelos [2m183ms[22m
+[2m10:34:24[22m [34m[200][39m /en/blog [2m190ms[22m
+[2m10:34:24[22m [34m[200][39m /en/blog/ciencia-de-datos-explicada-a-mis-abuelos [2m9ms[22m
+[2m10:34:29[22m [34m[watch][39m src/pages/en/blog/[slug].astro
+[2m10:34:29[22m [34m[watch][39m src/pages/en/blog/[slug].astro
+[2m10:34:30[22m [34m[200][39m /en/blog/ciencia-de-datos-explicada-a-mis-abuelos [2m190ms[22m
+[2m10:34:30[22m [34m[200][39m /en/blog [2m197ms[22m
+[2m10:34:30[22m [34m[200][39m /en/blog/ciencia-de-datos-explicada-a-mis-abuelos [2m8ms[22m
+[2m10:34:51[22m [34m[200][39m /en/research [2m9ms[22m
+[2m10:34:52[22m [34m[200][39m /en/career [2m9ms[22m
+[2m10:35:23[22m [34m[watch][39m src/content/blog/ciencia-de-datos-explicada-a-mis-abuelos.md
+[2m10:35:23[22m [34m[watch][39m src/content/blog/ciencia-de-datos-explicada-a-mis-abuelos.md
+[33m[1m10:35:23[22m [WARN] [glob-loader][39m Duplicate id "ciencia-de-datos-explicada-a-mis-abuelos" found in C:\Users\jgarciach\Desktop\Código\Pers\jgchaparro.com\src\content\blog\ciencia-de-datos-explicada-a-mis-abuelos.md. Later items with the same id will overwrite earlier ones.
+[2m10:35:23[22m [34m[glob-loader][39m Reloaded data from [32mciencia-de-datos-explicada-a-mis-abuelos.md[39m
+[2m10:35:23[22m [34m[200][39m /en/career [2m181ms[22m
+[2m10:35:23[22m [34m[200][39m /en/blog/ciencia-de-datos-explicada-a-mis-abuelos [2m20ms[22m
+[2m10:35:23[22m [34m[200][39m /en/blog [2m21ms[22m
+[2m10:35:28[22m [34m[200][39m /en/ [2m5ms[22m
+[2m10:35:30[22m [34m[200][39m /en/ [2m4ms[22m
+[2m10:35:34[22m [34m[200][39m /en/career [2m5ms[22m
+[2m10:35:35[22m [34m[200][39m /en/research [2m7ms[22m
+[2m10:35:35[22m [34m[200][39m /en/career [2m5ms[22m
+[2m10:35:37[22m [34m[200][39m /en/ [2m3ms[22m
+[2m10:35:45[22m [34m[watch][39m src/pages/en/career.astro
+[2m10:35:45[22m [34m[watch][39m src/pages/en/career.astro
+[2m10:35:46[22m [34m[200][39m /en/ [2m256ms[22m
+[2m10:35:46[22m [34m[200][39m /en/blog/ciencia-de-datos-explicada-a-mis-abuelos [2m138ms[22m
+[2m10:35:46[22m [34m[200][39m /en/blog [2m180ms[22m
+[2m10:36:05[22m [34m[200][39m /en/career [2m9ms[22m
+[2m10:36:50[22m [34m[200][39m /en/career [2m4ms[22m
+[2m10:36:52[22m [34m[200][39m /en/ [2m4ms[22m
+[2m10:36:59[22m [34m[watch][39m src/pages/en/career.astro
+[2m10:36:59[22m [34m[watch][39m src/pages/en/career.astro
+[2m10:37:00[22m [34m[200][39m /en/ [2m233ms[22m
+[2m10:37:00[22m [34m[200][39m /en/blog/ciencia-de-datos-explicada-a-mis-abuelos [2m242ms[22m
+[2m10:37:00[22m [34m[200][39m /en/blog [2m248ms[22m
+[2m10:37:28[22m [34m[watch][39m src/pages/en/index.astro
+[2m10:37:28[22m [34m[watch][39m src/pages/en/index.astro
+[2m10:37:29[22m [34m[200][39m /en/ [2m229ms[22m
+[2m10:37:29[22m [34m[200][39m /en/blog/ciencia-de-datos-explicada-a-mis-abuelos [2m239ms[22m
+[2m10:37:29[22m [34m[200][39m /en/blog [2m245ms[22m
+[2m10:38:15[22m [34m[watch][39m src/pages/en/index.astro
+[2m10:38:15[22m [34m[watch][39m src/pages/en/index.astro
+[2m10:38:16[22m [34m[200][39m /en/ [2m112ms[22m
+[2m10:38:16[22m [34m[200][39m /en/blog/ciencia-de-datos-explicada-a-mis-abuelos [2m115ms[22m
+[2m10:38:16[22m [34m[200][39m /en/blog [2m117ms[22m
+[2m10:38:29[22m [34m[200][39m /en/ [2m6ms[22m
+[2m10:38:31[22m [34m[watch][39m /src/styles/global.css
+[2m10:38:32[22m [34m[200][39m /en/ [2m429ms[22m
+[2m10:38:32[22m [34m[200][39m /en/blog/ciencia-de-datos-explicada-a-mis-abuelos [2m410ms[22m
+[2m10:38:32[22m [34m[200][39m /en/blog [2m410ms[22m
+[2m10:38:34[22m [34m[200][39m /en/research [2m9ms[22m
+[2m10:39:38[22m [34m[200][39m /en/research [2m7ms[22m
+[2m10:39:38[22m [34m[200][39m /en/blog/ciencia-de-datos-explicada-a-mis-abuelos [2m6ms[22m
+[2m10:39:38[22m [34m[200][39m /en/blog [2m5ms[22m
+[2m10:40:04[22m [34m[200][39m /en/blog [2m6ms[22m
+[2m10:40:04[22m [34m[200][39m /en/blog/ciencia-de-datos-explicada-a-mis-abuelos [2m9ms[22m
+[2m10:40:04[22m [34m[200][39m /en/research [2m9ms[22m
+[2m10:41:05[22m [34m[200][39m /en/blog/ciencia-de-datos-explicada-a-mis-abuelos [2m4ms[22m
+[2m10:41:05[22m [34m[200][39m /en/blog [2m3ms[22m
+[2m10:41:05[22m [34m[200][39m /en/research [2m3ms[22m
+[2m10:41:30[22m [34m[200][39m /en/research/greek-toponyms-geography [2m12ms[22m
+[2m10:43:23[22m [34m[200][39m /en/blog [2m6ms[22m
+[2m10:43:33[22m [34m[watch][39m src/pages/en/research/greek-toponyms-geography.astro
+[2m10:43:33[22m [34m[watch][39m src/pages/en/research/greek-toponyms-geography.astro
+[2m10:43:34[22m [34m[200][39m /en/research/greek-toponyms-geography [2m166ms[22m
+[2m10:43:34[22m [34m[200][39m /en/blog/ciencia-de-datos-explicada-a-mis-abuelos [2m173ms[22m
+[2m10:43:34[22m [34m[200][39m /en/blog [2m176ms[22m
+[2m10:43:34[22m [34m[200][39m /en/blog [2m6ms[22m
+[2m10:43:44[22m [34m[200][39m /en/ [2m5ms[22m
+[2m10:43:54[22m [34m[watch][39m src/pages/en/blog/[slug].astro
+[2m10:43:54[22m [34m[watch][39m src/pages/en/blog/[slug].astro
+[2m10:43:55[22m [34m[200][39m /en/research/greek-toponyms-geography [2m89ms[22m
+[2m10:43:55[22m [34m[200][39m /en/ [2m89ms[22m
+[2m10:43:55[22m [34m[200][39m /en/blog/ciencia-de-datos-explicada-a-mis-abuelos [2m93ms[22m
+[2m10:43:55[22m [34m[200][39m /en/blog [2m95ms[22m
+[2m10:44:42[22m [34m[watch][39m src/pages/en/index.astro
+[2m10:44:42[22m [34m[watch][39m src/pages/en/index.astro
+[2m10:44:43[22m [34m[200][39m /en/research/greek-toponyms-geography [2m97ms[22m
+[2m10:44:43[22m [34m[200][39m /en/ [2m97ms[22m
+[2m10:44:43[22m [34m[200][39m /en/blog/ciencia-de-datos-explicada-a-mis-abuelos [2m101ms[22m
+[2m10:44:43[22m [34m[200][39m /en/blog [2m104ms[22m
+[2m10:45:00[22m [34m[200][39m /en/research [2m5ms[22m
+[2m10:45:03[22m [34m[200][39m /en/career [2m8ms[22m
+[2m10:45:43[22m [34m[200][39m /en/blog [2m6ms[22m
+[2m10:45:45[22m [34m[200][39m /en/blog/ciencia-de-datos-explicada-a-mis-abuelos [2m5ms[22m
+[2m10:45:48[22m [34m[watch][39m src/pages/en/career.astro
+[2m10:45:48[22m [34m[watch][39m src/pages/en/career.astro
+[2m10:45:49[22m [34m[200][39m /en/research/greek-toponyms-geography [2m176ms[22m
+[2m10:45:49[22m [34m[200][39m /en/blog/ciencia-de-datos-explicada-a-mis-abuelos [2m284ms[22m
+[2m10:45:49[22m [34m[200][39m /en/blog [2m191ms[22m
+[2m10:45:49[22m [34m[200][39m /en/blog [2m6ms[22m
+[2m10:45:49[22m [34m[200][39m /en/blog/ciencia-de-datos-explicada-a-mis-abuelos [2m7ms[22m
+[2m10:45:56[22m [34m[200][39m /en/research [2m6ms[22m
+[2m10:46:00[22m [34m[200][39m /en/research/greek-toponyms-geography [2m5ms[22m
+[2m10:46:39[22m [34m[200][39m /en/blog [2m7ms[22m
+[2m10:47:33[22m [34m[200][39m /en/ [2m6ms[22m
+[2m10:47:40[22m [34m[watch][39m src/components/LanguageToggle.astro
+[2m10:47:40[22m [34m[watch][39m src/components/LanguageToggle.astro
+[2m10:47:40[22m [34m[200][39m /en/ [2m227ms[22m
+[2m10:47:40[22m [34m[200][39m /en/research [2m8ms[22m
+[2m10:47:40[22m [34m[200][39m /en/blog [2m5ms[22m
+[2m10:47:40[22m [34m[200][39m /en/research/greek-toponyms-geography [2m4ms[22m
+[2m10:47:41[22m [33m[404][39m /images/greek-toponyms-header.png [2m2ms[22m
+[2m10:47:41[22m [33m[404][39m /images/greek-toponyms-header.png [2m1ms[22m
+[2m10:47:41[22m [33m[404][39m /images/greek-toponyms-header.png [2m1ms[22m
+[2m10:47:42[22m [33m[404][39m /images/greek-toponyms-header.png [2m1ms[22m
+[2m10:47:42[22m [33m[404][39m /images/greek-toponyms-header.png [2m1ms[22m
+[2m10:47:51[22m [34m[200][39m /en/research [2m5ms[22m
+[2m10:47:51[22m [33m[404][39m /images/greek-toponyms-header.png [2m1ms[22m
+[2m10:47:52[22m [33m[404][39m /images/greek-toponyms-header.png [2m1ms[22m
+[2m10:48:13[22m [34m[200][39m /en/research/greek-toponyms-geography [2m6ms[22m
+[2m10:48:14[22m [33m[404][39m /images/greek-toponyms-header.png [2m1ms[22m
+[2m10:48:14[22m [33m[404][39m /images/greek-toponyms-header.png [2m1ms[22m
+[2m10:48:36[22m [34m[200][39m /en/ [2m6ms[22m
+[2m10:48:36[22m [34m[200][39m /en/ [2m6ms[22m
+[2m10:49:05[22m [34m[watch][39m src/pages/en/index.astro
+[2m10:49:05[22m [34m[watch][39m src/pages/en/index.astro
+[2m10:49:05[22m [34m[200][39m /en/ [2m267ms[22m
+[2m10:49:05[22m [34m[200][39m /en/research/greek-toponyms-geography [2m37ms[22m
+[2m10:49:05[22m [34m[200][39m /en/research [2m30ms[22m
+[2m10:49:05[22m [34m[200][39m /en/blog [2m52ms[22m
+[2m10:49:05[22m [34m[200][39m /en/research [2m7ms[22m
+[2m10:49:13[22m [34m[200][39m /en/ [2m4ms[22m
+[2m10:51:19[22m [33m[302][39m / [2m1ms[22m
+[2m10:51:45[22m [34m[200][39m /en/ [2m4ms[22m
+[2m10:52:39[22m [34m[200][39m /en/ [2m5ms[22m
+[2m10:52:41[22m [34m[200][39m /en/ [2m5ms[22m
+[2m10:52:42[22m [34m[watch][39m src/pages/en/index.astro
+[2m10:52:42[22m [34m[watch][39m src/pages/en/index.astro
+[2m10:52:42[22m [34m[200][39m /en/ [2m232ms[22m
+[2m10:52:42[22m [34m[200][39m /en/ [2m233ms[22m
+[2m10:52:42[22m [34m[200][39m /en/research [2m15ms[22m
+[2m10:52:42[22m [34m[200][39m /en/research/greek-toponyms-geography [2m8ms[22m
+[2m10:52:42[22m [34m[200][39m /en/blog [2m9ms[22m
+[2m10:52:43[22m [34m[200][39m /en/research [2m6ms[22m
+[2m10:52:44[22m [34m[200][39m /en/research [2m6ms[22m
+[2m10:52:46[22m [34m[200][39m /en/career [2m6ms[22m
+[2m10:52:47[22m [34m[200][39m /en/blog [2m5ms[22m
+[2m10:52:48[22m [34m[watch][39m src/pages/en/index.astro
+[2m10:52:48[22m [34m[watch][39m src/pages/en/index.astro
+[2m10:52:49[22m [34m[200][39m /en/research/greek-toponyms-geography [2m126ms[22m
+[2m10:52:49[22m [34m[200][39m /en/research [2m135ms[22m
+[2m10:52:49[22m [34m[200][39m /en/blog [2m245ms[22m
+[2m10:52:49[22m [34m[200][39m /en/blog [2m7ms[22m
+[2m10:52:49[22m [34m[200][39m /en/research [2m9ms[22m
+[2m10:53:06[22m [34m[200][39m /en/blog/ciencia-de-datos-explicada-a-mis-abuelos [2m6ms[22m
+[2m10:53:26[22m [34m[200][39m /en/career [2m8ms[22m
+[2m10:53:59[22m [33m[302][39m / [2m4ms[22m
+[2m10:54:02[22m [34m[200][39m /en/career [2m6ms[22m
+[2m10:54:09[22m [34m[watch][39m src/pages/en/career.astro
+[2m10:54:09[22m [34m[watch][39m src/pages/en/career.astro
+[2m10:54:10[22m [34m[200][39m /en/research/greek-toponyms-geography [2m239ms[22m
+[2m10:54:10[22m [34m[200][39m /en/career [2m241ms[22m
+[2m10:54:10[22m [34m[200][39m /en/research [2m242ms[22m
+[2m10:54:10[22m [34m[200][39m /en/blog [2m259ms[22m
+[2m10:54:10[22m [34m[200][39m /en/blog [2m7ms[22m
+[2m10:54:10[22m [34m[200][39m /en/research [2m10ms[22m
+[2m10:54:13[22m [34m[200][39m /en/ [2m7ms[22m
+[2m10:54:46[22m [34m[watch][39m src/components/Card.astro
+[2m10:54:46[22m [34m[watch][39m src/components/Card.astro
+[2m10:54:48[22m [34m[200][39m /en/ [2m89ms[22m
+[2m10:54:48[22m [34m[200][39m /en/research/greek-toponyms-geography [2m90ms[22m
+[2m10:54:48[22m [34m[200][39m /en/research [2m81ms[22m
+[2m10:54:48[22m [34m[200][39m /en/blog [2m89ms[22m
+[2m10:54:48[22m [34m[200][39m /en/blog [2m3ms[22m
+[2m10:54:48[22m [34m[200][39m /en/research [2m2ms[22m
+[2m10:54:51[22m [34m[200][39m /en/ [2m5ms[22m
+[2m10:54:58[22m [34m[200][39m /en/ [2m4ms[22m
+[2m10:55:24[22m [34m[200][39m /en/career [2m7ms[22m
+[2m10:55:26[22m [34m[200][39m /en/blog [2m5ms[22m
+[2m10:55:30[22m [34m[watch][39m src/pages/en/index.astro
+[2m10:55:30[22m [34m[watch][39m src/pages/en/index.astro
+[2m10:55:31[22m [34m[200][39m /en/research/greek-toponyms-geography [2m109ms[22m
+[2m10:55:31[22m [34m[200][39m /en/research [2m109ms[22m
+[2m10:55:31[22m [34m[200][39m /en/blog [2m115ms[22m
+[2m10:55:31[22m [34m[200][39m /en/blog [2m4ms[22m
+[2m10:55:31[22m [34m[200][39m /en/research [2m4ms[22m
+[2m10:55:31[22m [34m[200][39m /en/blog [2m2ms[22m
+[2m10:55:36[22m [34m[200][39m /en/ [2m6ms[22m
+[2m10:56:30[22m [34m[200][39m /en/blog [2m4ms[22m
+[2m10:56:34[22m [34m[200][39m /en/research [2m7ms[22m
+[2m10:56:43[22m [34m[200][39m /en/blog [2m6ms[22m
+[2m11:01:58[22m [34m[200][39m /en/research [2m8ms[22m
+[2m11:02:01[22m [34m[200][39m /en/blog [2m7ms[22m
+[2m11:02:05[22m [34m[200][39m /en/blog [2m8ms[22m
+[2m11:02:06[22m [34m[200][39m /en/blog/ciencia-de-datos-explicada-a-mis-abuelos [2m6ms[22m
+[2m11:02:11[22m [34m[200][39m /en/ [2m4ms[22m
+[2m11:02:20[22m [34m[200][39m /en/career [2m7ms[22m
+[2m11:02:23[22m [34m[200][39m /en/research [2m6ms[22m
+[2m11:02:32[22m [34m[200][39m /en/blog [2m7ms[22m
+[2m11:02:37[22m [34m[200][39m /en/blog [2m8ms[22m
+[2m11:02:39[22m [34m[200][39m /en/blog [2m7ms[22m
+[2m11:03:11[22m Configuration file removed. Restarting...
+[2m11:03:13[22m [34m[content][39m Syncing content
+[2m11:03:13[22m [34m[content][39m Synced content
+[2m11:03:13[22m [34m[types][39m Generated [2m1.91s[22m
+[2m11:03:14[22m [34m[vite][39m Re-optimizing dependencies because vite config has changed
+[2m11:03:16[22m [34m[200][39m /en/blog/ciencia-de-datos-explicada-a-mis-abuelos [2m189ms[22m
+[2m11:03:16[22m [34m[200][39m /en/blog [2m209ms[22m
+[2m11:03:16[22m [34m[200][39m /en/blog [2m209ms[22m
+[2m11:03:35[22m [34m[200][39m /en/blog [2m12ms[22m
+[2m11:03:42[22m Configuration file added. Restarting...
+[2m11:03:42[22m [34m[vite][39m Re-optimizing dependencies because vite config has changed
+[2m11:03:44[22m [34m[content][39m Syncing content
+[2m11:03:44[22m [34m[content][39m Synced content
+[2m11:03:44[22m [34m[types][39m Generated [2m1.88s[22m
+[2m11:03:44[22m [34m[vite][39m Port 4321 is in use, trying another one...

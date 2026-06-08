@@ -1,0 +1,47 @@
+/* Self-hosted Inter — variable weight */
+@import '@fontsource/inter/400.css';
+@import '@fontsource/inter/500.css';
+@import '@fontsource/inter/600.css';
+@import '@fontsource/inter/700.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  body {
+    @apply bg-slate-50 text-slate-900 dark:bg-slate-950 dark:text-slate-50;
+    @apply font-sans;
+  }
+}
+
+@layer components {
+  /* Card UI — Plan.md design system */
+  .card {
+    @apply bg-white dark:bg-white/5 border border-slate-200 dark:border-white/10 rounded-2xl shadow-sm;
+    @apply transition-all duration-300 ease-out-soft;
+  }
+
+  .card-interactive {
+    @apply card hover:-translate-y-1 hover:shadow-md hover:border-brand-700 dark:hover:border-blue-400;
+  }
+
+  /* Primary button */
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 rounded-xl px-5 py-3 font-semibold;
+    @apply bg-brand-700 text-white hover:bg-brand-800;
+    @apply dark:bg-blue-500 dark:hover:bg-blue-400 dark:text-slate-950;
+    @apply transition-all duration-300;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center gap-2 rounded-xl px-5 py-3 font-medium;
+    @apply border border-slate-300 dark:border-white/15 hover:border-brand-700 dark:hover:border-blue-400;
+    @apply transition-all duration-300;
+  }
+}

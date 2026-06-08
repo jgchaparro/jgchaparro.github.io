@@ -1,0 +1,58 @@
+---
+import { Icon } from 'astro-icon/components';
+
+const socials = [
+  {
+    label: 'Email',
+    href: 'mailto:jgchaparro@outlook.com',
+    icon: 'heroicons:envelope-solid',
+    external: false,
+  },
+  {
+    label: 'LinkedIn',
+    href: 'https://www.linkedin.com/in/jgchaparro',
+    icon: 'lucide:linkedin',
+    external: true,
+  },
+  {
+    label: 'GitHub',
+    href: 'https://github.com/jgchaparro',
+    icon: 'lucide:github',
+    external: true,
+  },
+];
+
+const year = new Date().getFullYear();
+---
+
+<footer id="contact" class="mt-24 border-t border-slate-200 dark:border-white/10">
+  <div class="mx-auto max-w-5xl px-4 py-12 sm:px-6">
+    <div class="flex flex-col items-center gap-6 text-center">
+      <h2 class="text-2xl font-bold tracking-tight">Get in touch</h2>
+      <p class="max-w-md text-sm text-slate-600 dark:text-slate-400">
+        Open to conversations about AI engineering, NLP, and language preservation.
+      </p>
+
+      <div class="flex items-center gap-3">
+        {
+          socials.map((social) => (
+            <a
+              href={social.href}
+              target={social.external ? '_blank' : undefined}
+              rel={social.external ? 'noopener noreferrer' : undefined}
+              aria-label={social.label}
+              title={social.label}
+              class="grid h-11 w-11 place-items-center rounded-xl border border-slate-300 text-slate-600 transition-all duration-300 hover:-translate-y-1 hover:border-brand-700 hover:text-brand-700 dark:border-white/15 dark:text-slate-300 dark:hover:border-blue-400 dark:hover:text-blue-400"
+            >
+              <Icon name={social.icon} class="h-5 w-5" />
+            </a>
+          ))
+        }
+      </div>
+
+      <p class="mt-4 text-xs text-slate-500 dark:text-slate-500">
+        &copy; {year} Jaime Garcia Chaparro &middot; Built with Astro &amp; Tailwind CSS
+      </p>
+    </div>
+  </div>
+</footer>

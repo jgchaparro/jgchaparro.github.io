@@ -1,0 +1,140 @@
+---
+interface Props {
+  role: string;
+  org: string;
+  period: string;
+  location?: string;
+  description?: string;
+  logo?: string;
+  thesis?: {
+    title: string;
+    description?: string;
+  };
+  grade?: {
+    average: number;
+    honorsSubjects?: number;
+  };
+  award?: string;
+  coursework?: string[];
+  /** Render the connector line below the dot (false for the last item). */
+  last?: boolean;
+}
+
+const { role, org, period, location, description, logo, thesis, grade, award, coursework, last = false } = Astro.props;
+---
+
+<li class="relative flex gap-5 pb-10 last:pb-0">
+  <!-- Dot + connector -->
+  <div class="relative flex flex-col items-center">
+    <span
+      class="mt-1.5 h-3 w-3 shrink-0 rounded-full border-2 border-brand-700 bg-slate-50 dark:border-blue-400 dark:bg-slate-950"
+    ></span>
+    {
+      !last && (
+        <span class="absolute top-5 h-full w-px bg-slate-200 dark:bg-white/10" aria-hidden="true" />
+      )
+    }
+  </div>
+
+  <!-- Content -->
+  <div class="flex-1 pb-2">
+    <div class="flex flex-col gap-0.5 sm:flex-row sm:items-baseline sm:justify-between sm:gap-4">
+      <h3 class="font-bold tracking-tight text-slate-900 dark:text-slate-50">
+        {role}
+      </h3>
+      <span class="shrink-0 text-xs font-medium text-slate-500 dark:text-slate-400">
+        {period}
+      </span>
+    </div>
+
+    <div class="mt-1 flex items-center gap-2">
+      {
+        logo && (
+          <img src={logo} alt={org} class="h-6 object-contain" />
+        )
+      }
+      <p class="text-sm font-semibold text-brand-700 dark:text-blue-400">
+        {org}
+        {
+          location && (
+            <span class="font-normal text-slate-500 dark:text-slate-400"> &middot; {location}</span>
+          )
+        }
+      </p>
+    </div>
+
+    {
+      description && (
+        <p class="mt-2 text-sm leading-relaxed text-slate-600 dark:text-slate-400">
+          {description}
+        </p>
+      )
+    }
+
+    {
+      thesis && (
+        <div class="mt-3 border-l-2 border-slate-200 pl-3 dark:border-white/10">
+          <p class="text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400">
+            Thesis
+          </p>
+          <p class="mt-1 text-sm font-semibold text-slate-900 dark:text-slate-50">
+            {thesis.title}
+          </p>
+          {
+            thesis.description && (
+              <p class="mt-1 text-sm leading-relaxed text-slate-600 dark:text-slate-400">
+                {thesis.description}
+              </p>
+            )
+          }
+        </div>
+      )
+    }
+
+    {
+      grade && (
+        <div class="mt-3 flex flex-col gap-2 text-sm">
+          <div>
+            <p class="font-semibold text-slate-900 dark:text-slate-50">
+              GPA: <span class="text-brand-700 dark:text-blue-400">{grade.average}</span>
+            </p>
+            {
+              grade.honorsSubjects && (
+                <p class="text-slate-600 dark:text-slate-400">
+                  {grade.honorsSubjects} subjects with honors
+                </p>
+              )
+            }
+          </div>
+        </div>
+      )
+    }
+
+    {
+      award && (
+        <p class="mt-2 text-sm text-slate-600 dark:text-slate-400">
+          <span class="font-semibold text-slate-900 dark:text-slate-50">Award:</span> {award}
+        </p>
+      )
+    }
+
+    {
+      coursework && coursework.length > 0 && (
+        <div class="mt-3">
+          <p class="text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400">
+            Coursework
+          </p>
+          <div class="mt-2 flex flex-wrap gap-2">
+            {
+              coursework.map((course) => (
+                <span class="inline-block rounded-full bg-slate-100 px-2.5 py-1 text-xs text-slate-700 dark:bg-white/5 dark:text-slate-300">
+                  {course}
+                </span>
+              ))
+            }
+          </div>
+        </div>
+      )
+    }
+  </div>
+</li>

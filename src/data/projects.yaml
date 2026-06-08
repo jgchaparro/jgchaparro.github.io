@@ -1,0 +1,90 @@
+# Research & projects shown on /en/research as a card grid.
+# status: "ready" = live/linkable, "wip" = in progress (dimmed + badge)
+
+tsakonian:
+  - title: Tsakonian Digital Dictionary
+    description: >-
+      A trilingual (Greek / English / Spanish) digital dictionary for Tsakonian,
+      a critically endangered Doric Greek dialect — making the language searchable
+      and accessible online for the first time.
+    category: Tsakonian
+    url: https://tsakoniandigital.com/
+    logo: /images/logos/logo-tsakonian-digital.png
+    status: ready
+
+  - title: Tsakonian Digital Vault
+    description: >-
+      A structured repository of comprehensive information on the Tsakonian language,
+      covering its history, grammar, and learning resources.
+    category: Tsakonian
+    url: https://jgchaparro.github.io/tsakonian_digital_vault/
+    logo: /images/logos/logo-tsakonian-digital-vault.png
+    status: ready
+
+  - title: Tsakonian AI Translation Models
+    description: >-
+      Neural machine-translation models for Tsakonian, tackling the hard problem
+      of building NLP systems for an extremely low-resource language.
+    category: Tsakonian
+    url: https://huggingface.co/jgchaparro/language_garden-tsd-ell-9B-bl-GGUF
+    status: ready
+
+  - title: Simple Kostakis Orthography
+    description: >-
+      A simplified, consistent orthographic standard for writing Tsakonian, lowering
+      the barrier for learners and digital tooling.
+    category: Tsakonian
+    url: https://tsakoniandigital.com/orthography
+    status: ready
+
+  - title: Tsakonian Transliteration System
+    description: >-
+      A transliteration system mapping Tsakonian phonology to Latin script,
+      enabling consistent digital input and cross-language alignment.
+    category: Tsakonian
+    url: https://jgchaparro.github.io/tsakonian_digital_vault/English/3.-Writing/3.2-Transliteration
+    status: ready
+
+  - title: Modern Greek Dialectal Lexicography and Tsakonian
+    description: >-
+      Research article exploring the history and prospects of lexicographical work
+      on the Tsakonian dialect within the broader context of Modern Greek dialectology.
+    category: Research
+    url: https://www.researchgate.net/publication/384035114_About_Modern_Greek_dialectal_lexicography_and_Tsakonian_dialect_History_and_prospect
+    status: ready
+
+other:
+  - title: CyprusDB
+    description: >-
+      An interactive toponym map and dashboard of Cyprus, visualizing place-name
+      data across the island.
+    category: Data
+    url: https://public.tableau.com/app/profile/jgchaparro/viz/ToponymmapofCyprus/Toponymdashboard
+    image: /images/cyprusdb-header.jpg
+    status: ready
+
+  - title: HellasDB
+    description: >-
+      A structured database of Greek geographic and linguistic data, supporting
+      toponymic and dialectal research.
+    category: Data
+    url: https://github.com/jgchaparro/HellasDB
+    status: ready
+
+  - title: Exploring the Geography of Greek Toponyms
+    description: >-
+      A data-driven analysis of geographic patterns in Greek place names using the Hellas DB database
+      of 12,904 settlements, revealing how regional suffixes, administrative divisions, and linguistic
+      features create distinct naming patterns across mainland Greece and islands.
+    category: Research
+    url: /en/research/greek-toponyms-geography
+    image: /images/greek-toponyms-header.png
+    status: ready
+
+  - title: Impact of economic freedom on political participation rights and civil liberties
+    description: >-
+      Research analyzing the impact of economic freedom on social freedom — bridging quantitative
+      methods with international-relations questions.
+    category: Research
+    url: null
+    status: wip

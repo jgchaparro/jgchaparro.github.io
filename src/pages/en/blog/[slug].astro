@@ -1,0 +1,53 @@
+---
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import { Icon } from 'astro-icon/components';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('blog', ({ data }) => !data.draft);
+  return posts.map((post) => ({
+    params: { slug: post.id },
+    props: { post },
+  }));
+}
+
+const { post } = Astro.props;
+const { Content } = await render(post);
+
+const formattedDate = post.data.date.toLocaleDateString('en-US', {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric',
+});
+---
+
+<BaseLayout title={`${post.data.title} — Jaime Garcia Chaparro`} description={post.data.description}>
+  <article class="mx-auto max-w-2xl px-4 py-8 sm:px-6 sm:py-24">
+    <a
+      href="/en/blog"
+      class="mb-8 inline-flex items-center gap-1 text-sm font-medium text-slate-500 transition-colors hover:text-brand-700 dark:text-slate-400 dark:hover:text-blue-400"
+    >
+      <Icon name="heroicons:arrow-left-20-solid" class="h-4 w-4" />
+      Back to blog
+    </a>
+
+    <header class="mb-6">
+      <time class="text-sm font-medium text-brand-700 dark:text-blue-400">{formattedDate}</time>
+      <h1 class="mt-2 text-4xl font-bold tracking-tight sm:text-5xl">{post.data.title}</h1>
+    </header>
+
+    {
+      post.data.image && (
+        <figure class="mb-8">
+          <img src={post.data.image} alt={post.data.title} class="w-full rounded-lg" />
+        </figure>
+      )
+    }
+
+    <div
+      class="prose prose-slate max-w-none dark:prose-invert prose-headings:font-bold prose-headings:tracking-tight prose-a:text-brand-700 dark:prose-a:text-blue-400"
+    >
+      <Content />
+    </div>
+  </article>
+</BaseLayout>
