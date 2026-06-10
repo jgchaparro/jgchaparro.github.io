@@ -23,14 +23,33 @@ const socials = [
 ];
 
 const year = new Date().getFullYear();
+
+const raw = Astro.url.pathname;
+const lang = raw.startsWith('/es') ? 'es' : raw.startsWith('/el') ? 'el' : 'en';
+
+const text = {
+  en: {
+    heading: 'Get in touch',
+    description: 'Open to conversations about AI engineering, NLP, and language preservation.',
+  },
+  es: {
+    heading: 'Contacto',
+    description: 'Abierto a conversaciones sobre ingeniería de IA, PLN y preservación de idiomas.',
+  },
+  el: {
+    heading: 'Επικοινωνία',
+    description: 'Ανοιχτός σε συζητήσεις για μηχανική ΤΝ, NLP και διατήρηση γλωσσών.',
+  },
+};
+const t = text[lang];
 ---
 
 <footer id="contact" class="mt-8 border-t border-slate-200 dark:border-white/10">
   <div class="mx-auto max-w-5xl px-4 py-12 sm:px-6">
     <div class="flex flex-col items-center gap-6 text-center">
-      <h2 class="text-2xl font-bold tracking-tight">Get in touch</h2>
+      <h2 class="text-2xl font-bold tracking-tight">{t.heading}</h2>
       <p class="max-w-md text-sm text-slate-600 dark:text-slate-400">
-        Open to conversations about AI engineering, NLP, and language preservation.
+        {t.description}
       </p>
 
       <div class="flex items-center gap-3">

@@ -1,0 +1,118 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { Icon } from 'astro-icon/components';
+---
+
+<BaseLayout
+  title="Jaime Garcia Chaparro — Senior AI Engineer"
+  description="Senior AI Engineer εξειδικευμένος σε NLP και σύγχρονη υποδομή — κατασκευάζει ψηφιακά εργαλεία για τη διατήρηση των Τσακώνικων, ενός δωρικού ελληνικού διαλέκτου σε κρίσιμο κίνδυνο."
+>
+  <!-- Hero: Headline + Image aligned -->
+  <section
+    class="mx-auto flex max-w-5xl items-center justify-between gap-4 px-4 py-4 sm:px-6 sm:py-4 lg:gap-12 lg:py-8"
+  >
+    <!-- Left: Eyebrow + Headline + CTAs -->
+    <div class="flex flex-1 flex-col items-center justify-center text-center lg:max-w-2xl">
+      <!-- Mobile Profile Image -->
+      <div class="mb-4 lg:hidden">
+        <div class="relative flex items-center justify-center">
+          <div
+            class="absolute -inset-4 rounded-full bg-gradient-to-tr from-brand-700 to-blue-500 opacity-20 blur-2xl"
+            aria-hidden="true"
+          >
+          </div>
+          <img
+            src="/images/jaime-garcia-chaparro.jpg"
+            alt="Jaime García Chaparro — Senior AI Engineer"
+            width="200"
+            height="200"
+            class="relative h-48 w-48 rounded-full border-4 border-white object-cover shadow-2xl dark:border-white/10"
+          />
+        </div>
+      </div>
+
+      <!-- Eyebrow -->
+      <p
+        class="mb-2 inline-flex w-fit items-center gap-2 rounded-full border border-slate-200 bg-white px-4 py-1.5 text-xs font-semibold text-slate-600 dark:border-white/10 dark:bg-white/5 dark:text-slate-300"
+      >
+        <span class="relative flex h-2 w-2">
+          <span
+            class="absolute inline-flex h-full w-full animate-ping rounded-full bg-emerald-400 opacity-75"
+          ></span>
+          <span class="relative inline-flex h-2 w-2 rounded-full bg-emerald-500"></span>
+        </span>
+        Senior AI Engineer &middot; Μαδρίτη
+      </p>
+
+      <!-- Headline -->
+      <h1
+        class="text-balance text-4xl font-bold leading-tight tracking-tight text-slate-900 dark:text-slate-50 sm:text-5xl lg:text-6xl"
+      >
+        Κατασκευάζω συστήματα ΤΝ — και τα χρησιμοποιώ για να σώσω μια
+        <span class="text-brand-700 dark:text-blue-400">γλώσσα σε κρίσιμο κίνδυνο</span>.
+      </h1>
+
+      <!-- CTAs -->
+      <div class="mt-8 flex flex-col gap-3 sm:flex-row sm:justify-center">
+        <a href="/el/career" class="btn-primary">
+          Καριέρα
+          <Icon name="heroicons:arrow-right-20-solid" class="h-5 w-5" />
+        </a>
+        <a href="/el/research" class="btn-secondary">
+          Έρευνα
+          <Icon name="heroicons:arrow-right-20-solid" class="h-5 w-5" />
+        </a>
+        <a href="/el/blog" class="btn-secondary">
+          Blog
+          <Icon name="heroicons:arrow-right-20-solid" class="h-5 w-5" />
+        </a>
+      </div>
+    </div>
+
+    <!-- Right: Profile picture (hidden on mobile, shown on lg+) -->
+    <div class="hidden min-h-fit flex-shrink-0 lg:flex">
+      <div class="relative flex items-center">
+        <div
+          class="absolute -inset-4 rounded-full bg-gradient-to-tr from-brand-700 to-blue-500 opacity-20 blur-2xl"
+          aria-hidden="true"
+        >
+        </div>
+        <img
+          src="/images/jaime-garcia-chaparro.jpg"
+          alt="Jaime García Chaparro — Senior AI Engineer"
+          width="300"
+          height="300"
+          class="relative h-72 w-72 rounded-full border-4 border-white object-cover shadow-2xl dark:border-white/10"
+        />
+      </div>
+    </div>
+  </section>
+
+  <!-- Presentation Section -->
+  <section class="mx-auto max-w-5xl px-4 py-4 sm:px-6 sm:py-6">
+    <div class="prose prose-slate max-w-none dark:prose-invert prose-headings:font-bold prose-headings:tracking-tight prose-p:text-slate-600 dark:prose-p:text-slate-400 prose-a:text-brand-700 dark:prose-a:text-blue-400 space-y-4 text-sm leading-relaxed">
+      <p>
+        Γεια σας, είμαι ο Jaime. Γεννημένος στη Μάλαγα, βασισμένος στη Μαδρίτη, ανοιχτός στον κόσμο. Είμαι
+        Senior AI Engineer εξειδικευμένος σε NLP και σύγχρονη υποδομή — και κατασκευάζω
+        ψηφιακά εργαλεία για τη διατήρηση των <strong class="font-semibold text-slate-800 dark:text-slate-200">Τσακώνικων</strong>,
+        ενός δωρικού ελληνικού διαλέκτου που μιλιέται από μερικές εκατοντάδες ανθρώπους.
+      </p>
+
+      <p>
+        Η διεπιστημονική περιέργεια, η συνεχής καινοτομία και οι νέες προκλήσεις είναι σταθερές για μένα.
+      </p>
+
+      <p>
+        Ως Senior AI Engineer με πάνω από 3 χρόνια επαγγελματικής εμπειρίας και 8 χρόνια ανάπτυξης προσωπικών έργων, εργάζομαι σχεδιάζοντας, υλοποιώντας και κλιμακώνοντας ψηφιακές λύσεις βασισμένες σε ΤΝ, όπως συστήματα πρακτόρων με LangChain, LangGraph και LangSmith, RAGs και LLMs, υποστηριζόμενα από στέρεα πρακτική εμπειρία με Python, BigQuery, Databricks, GCP και Azure.
+      </p>
+
+      <p>
+        Αναζητώντας να διευρύνω τους ορίζοντές μου, ερευνώ ανεξάρτητα NLP για την ψηφιακή διατήρηση της τσακώνικης γλώσσας, χρησιμοποιώντας μοντέλα ανοιχτού κώδικα και τεχνικές fine-tuning για LLMs και OCRs. Επίσης δίδαξα Νευρωνικά Δίκτυα στο Πανεπιστήμιο Alfonso X el Sabio κατά το δεύτερο εξάμηνο του ακαδημαϊκού έτους 2024-2025.
+      </p>
+
+      <p>
+        Είμαι ένθερμος πολύγλωσσος και ερασιτέχνης γλωσσολόγος με γνώση 8 γλωσσών: ισπανικά, αγγλικά, γαλλικά, ελληνικά, ρωσικά, λευκορωσικά, κινεζικά μανδαρίνα και τσακώνικα. Συνδεδεμένος με το υπόβαθρό μου στη Διοίκηση Επιχειρήσεων και τις Διεθνείς Σχέσεις, τα οικονομικά, η ιστορία και η γεωπολιτική είναι θέματα ιδιαίτερου ενδιαφέροντος για μένα.
+      </p>
+    </div>
+  </section>
+</BaseLayout>

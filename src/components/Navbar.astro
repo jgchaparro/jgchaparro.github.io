@@ -3,15 +3,26 @@ import ThemeToggle from './ThemeToggle.astro';
 import LanguageToggle from './LanguageToggle.astro';
 import { Icon } from 'astro-icon/components';
 
+const { pathname } = Astro.url;
+const lang = pathname.startsWith('/es') ? 'es' : pathname.startsWith('/el') ? 'el' : 'en';
+const prefix = lang === 'en' ? '' : `/${lang}`;
+const homeHref = lang === 'en' ? '/' : `/${lang}`;
+
+const labels = {
+  en: { home: 'Home', career: 'Career', research: 'Research', blog: 'Blog', contact: 'Contact' },
+  es: { home: 'Inicio', career: 'Carrera', research: 'Investigación', blog: 'Blog', contact: 'Contacto' },
+  el: { home: 'Αρχική', career: 'Καριέρα', research: 'Έρευνα', blog: 'Blog', contact: 'Επικοινωνία' },
+};
+const t = labels[lang];
+
 const navLinks = [
-  { label: 'Home', href: '/' },
-  { label: 'Career', href: '/career' },
-  { label: 'Research', href: '/research' },
-  { label: 'Blog', href: '/blog' },
-  { label: 'Contact', href: '#contact' },
+  { label: t.home, href: homeHref },
+  { label: t.career, href: `${prefix}/career` },
+  { label: t.research, href: `${prefix}/research` },
+  { label: t.blog, href: `${prefix}/blog` },
+  { label: t.contact, href: `${prefix}/contact` },
 ];
 
-const { pathname } = Astro.url;
 const isActive = (href: string) =>
   href.startsWith('/') && pathname.replace(/\/$/, '') === href.replace(/\/$/, '');
 ---
@@ -21,7 +32,7 @@ const isActive = (href: string) =>
 >
   <nav class="mx-auto flex max-w-5xl items-center justify-between px-4 py-3 sm:px-6">
     <a
-      href="/"
+      href={homeHref}
       class="text-base font-bold tracking-tight text-slate-900 transition-colors hover:text-brand-700 dark:text-slate-50 dark:hover:text-blue-400 sm:text-lg"
     >
       Jaime García Chaparro

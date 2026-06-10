@@ -1,0 +1,65 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import Card from '../../../components/Card.astro';
+import { Icon } from 'astro-icon/components';
+
+const posts = (await getCollection('blog', ({ data }) => !data.draft)).sort(
+  (a, b) => b.data.date.valueOf() - a.data.date.valueOf()
+);
+
+const hasPosts = posts.length > 0;
+
+function getPostImage(body = ''): string {
+  return body.match(/!\[.*?\]\(([^)]+)\)/)?.[1] ?? '';
+}
+---
+
+<BaseLayout
+  title="Blog — Jaime Garcia Chaparro"
+  description="Artículos sobre ingeniería de IA, PLN y preservación de idiomas."
+>
+  <section class="mx-auto max-w-5xl px-4 py-4 sm:px-6 sm:py-8">
+    <header class="mb-4 max-w-2xl sm:mb-6">
+      <h1 class="text-4xl font-bold tracking-tight sm:text-5xl">Blog</h1>
+      <p class="mt-4 text-lg text-slate-600 dark:text-slate-400">
+        Notas sobre ingeniería de IA, PLN y preservación de idiomas.
+      </p>
+    </header>
+
+    {
+      hasPosts ? (
+        <div class="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
+          {posts.map((post) => (
+            <Card
+              title={post.data.title}
+              description={post.data.description}
+              image={getPostImage(post.body)}
+              category={post.data.date.toLocaleDateString('es-ES', {
+                year: 'numeric',
+                month: 'short',
+                day: 'numeric',
+              })}
+              href={`/es/blog/${post.id}`}
+            />
+          ))}
+        </div>
+      ) : (
+        <div class="card flex flex-col items-center justify-center gap-4 px-6 py-20 text-center">
+          <span class="grid h-14 w-14 place-items-center rounded-2xl bg-brand-50 text-brand-700 dark:bg-blue-500/10 dark:text-blue-400">
+            <Icon name="heroicons:pencil-square" class="h-7 w-7" />
+          </span>
+          <h2 class="text-xl font-bold tracking-tight">Artículos próximamente</h2>
+          <p class="max-w-md text-sm text-slate-600 dark:text-slate-400">
+            Estoy migrando mis escritos existentes a este sitio. Vuelve pronto —
+            en camino artículos sobre PLN, ingeniería de IA y tsakonio.
+          </p>
+          <a href="/es/research" class="btn-secondary mt-2">
+            Explorar mi investigación
+            <Icon name="heroicons:arrow-right-20-solid" class="h-5 w-5" />
+          </a>
+        </div>
+      )
+    }
+  </section>
+</BaseLayout>

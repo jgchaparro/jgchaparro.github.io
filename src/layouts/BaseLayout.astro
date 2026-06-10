@@ -17,10 +17,13 @@ const {
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 const ogImageURL = new URL(ogImage, Astro.site);
+
+const rawPath = Astro.url.pathname;
+const htmlLang = rawPath.startsWith('/es') ? 'es' : rawPath.startsWith('/el') ? 'el' : 'en';
 ---
 
 <!doctype html>
-<html lang="en" class="scroll-smooth">
+<html lang={htmlLang} class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />

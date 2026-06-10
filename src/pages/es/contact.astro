@@ -1,0 +1,62 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { Icon } from 'astro-icon/components';
+
+const contacts = [
+  {
+    label: 'Email',
+    value: 'jgchaparro@outlook.com',
+    href: 'mailto:jgchaparro@outlook.com',
+    icon: 'heroicons:envelope-solid',
+    external: false,
+  },
+  {
+    label: 'LinkedIn',
+    value: 'linkedin.com/in/jgchaparro',
+    href: 'https://www.linkedin.com/in/jgchaparro',
+    icon: 'lucide:linkedin',
+    external: true,
+  },
+  {
+    label: 'GitHub',
+    value: 'github.com/jgchaparro',
+    href: 'https://github.com/jgchaparro',
+    icon: 'lucide:github',
+    external: true,
+  },
+];
+---
+
+<BaseLayout
+  title="Contacto — Jaime Garcia Chaparro"
+  description="Contacta con Jaime Garcia Chaparro — ingeniero de IA, investigador de PLN y defensor de la preservación del tsakonio."
+>
+  <section class="mx-auto max-w-3xl px-4 py-4 sm:px-6 sm:py-8">
+    <header class="mb-4 sm:mb-6">
+      <h1 class="text-4xl font-bold tracking-tight sm:text-5xl">Contacto</h1>
+      <p class="mt-4 text-lg text-slate-600 dark:text-slate-400">
+        Abierto a conversaciones sobre ingeniería de IA, PLN y preservación de idiomas.
+      </p>
+    </header>
+
+    <div class="flex flex-col gap-4">
+      {contacts.map((contact) => (
+        <a
+          href={contact.href}
+          target={contact.external ? '_blank' : undefined}
+          rel={contact.external ? 'noopener noreferrer' : undefined}
+          class="flex items-center gap-4 rounded-xl border border-slate-200 bg-slate-50 p-5 transition-all duration-200 hover:-translate-y-0.5 hover:border-brand-700 hover:shadow-md dark:border-white/10 dark:bg-white/5 dark:hover:border-blue-400"
+        >
+          <span class="grid h-11 w-11 shrink-0 place-items-center rounded-lg bg-brand-50 text-brand-700 dark:bg-blue-500/10 dark:text-blue-400">
+            <Icon name={contact.icon} class="h-5 w-5" />
+          </span>
+          <div>
+            <p class="font-semibold text-slate-900 dark:text-slate-50">{contact.label}</p>
+            <p class="text-sm text-slate-600 dark:text-slate-400">{contact.value}</p>
+          </div>
+          <Icon name="heroicons:arrow-up-right-20-solid" class="ml-auto h-5 w-5 text-slate-400 dark:text-slate-500" />
+        </a>
+      ))}
+    </div>
+  </section>
+</BaseLayout>

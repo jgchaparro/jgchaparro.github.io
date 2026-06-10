@@ -1,75 +1,75 @@
 ---
-import BaseLayout from '../layouts/BaseLayout.astro';
-import TimelineItem from '../components/TimelineItem.astro';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import TimelineItem from '../../components/TimelineItem.astro';
 import { Icon } from 'astro-icon/components';
 
 const experience = [
   {
     role: 'Senior AI Engineer',
     org: 'Devoteam (Google Cloud Partner)',
-    period: 'Mar 2026 – Present',
-    location: 'Madrid',
+    period: 'Μαρ 2026 – Παρόν',
+    location: 'Μαδρίτη',
     logo: '/images/logos/logo-devoteam.jpg',
     description:
-      'Design, implementation and improvement of AI tools for 3 clients in the sectors of telecommunications, insurance, and hospitality, including agentic systems (Langchain + ADK) and data pipelines (KubeFlow Pipelines, Dataform) on the Google Cloud Platform ecosystem.',
+      'Σχεδιασμός, υλοποίηση και βελτίωση εργαλείων ΤΝ για 3 πελάτες στους τομείς τηλεπικοινωνιών, ασφαλίσεων και φιλοξενίας, συμπεριλαμβανομένων αγεντικών συστημάτων (Langchain + ADK) και αγωγών δεδομένων (KubeFlow Pipelines, Dataform) στο οικοσύστημα Google Cloud Platform.',
   },
   {
     role: 'AI Development Engineer',
     org: 'Comunidad de Madrid',
-    period: 'Nov 2025 – Mar 2026',
-    location: 'Madrid',
+    period: 'Νοε 2025 – Μαρ 2026',
+    location: 'Μαδρίτη',
     logo: '/images/logos/logo-comunidad-madrid.jpg',
     description:
-      'Design and integration of AI tools (chatbots, RAG, agent systems) within institutional websites and internal processes.',
+      'Σχεδιασμός και ενσωμάτωση εργαλείων ΤΝ (chatbots, RAG, συστήματα πρακτόρων) σε θεσμικές ιστοσελίδες και εσωτερικές διαδικασίες.',
   },
   {
     role: 'Global Data Scientist (Senior & Junior)',
     org: 'Havas Media Network',
-    period: 'Sept 2022 – Nov 2025',
-    location: 'Madrid',
+    period: 'Σεπτ 2022 – Νοε 2025',
+    location: 'Μαδρίτη',
     logo: '/images/logos/logo-havas.jpg',
     description:
-      'Design and implementation in Python of digital products for audience activation using NLP. Revamped products incorporating LLMs, RAG, and agent systems (LangGraph + LangSmith). Industrialization on Databricks, BigQuery, and GCP. Structural equation modeling (SEM).',
+      'Σχεδιασμός και υλοποίηση σε Python ψηφιακών προϊόντων για ενεργοποίηση κοινού με χρήση NLP. Ανανέωση προϊόντων με ενσωμάτωση LLMs, RAG και αγεντικών συστημάτων (LangGraph + LangSmith). Βιομηχανοποίηση σε Databricks, BigQuery και GCP. Μοντελοποίηση δομικών εξισώσεων (SEM).',
   },
   {
-    role: 'Associate Professor',
+    role: 'Λέκτορας',
     org: 'Universidad Alfonso X el Sabio (UAX)',
-    period: 'Jan 2025 – Jul 2025',
-    location: 'Madrid',
+    period: 'Ιαν 2025 – Ιουλ 2025',
+    location: 'Μαδρίτη',
     logo: '/images/logos/logo-uax.jpg',
-    description: 'Professor of Neural Networks and Artificial Intelligence in the Bachelor\'s Degree in Artificial Intelligence.',
+    description: 'Διδασκαλία Νευρωνικών Δικτύων και Τεχνητής Νοημοσύνης στο Πτυχίο Τεχνητής Νοημοσύνης.',
   },
 ];
 
 const education = [
   {
-    role: "Master's Degree in Artificial Intelligence",
+    role: 'Μεταπτυχιακό στην Τεχνητή Νοημοσύνη',
     org: 'Universidad Alfonso X el Sabio (UAX)',
-    period: 'Oct 2023 – Jul 2024',
+    period: 'Οκτ 2023 – Ιουλ 2024',
     logo: '/images/logos/logo-uax.jpg',
     thesis: {
-      title: 'Conservation AI for endangered languages: strategy for conservation of Tsakonian Greek through Andalusian Spanish',
+      title: 'ΤΝ για τη διατήρηση γλωσσών σε κίνδυνο: στρατηγική για τη διατήρηση του τσακώνικου ελληνικού μέσω της ανδαλουσιανής ισπανικής',
     },
   },
   {
-    role: 'Specialization Master in Deep Learning & Data Science',
+    role: 'Μεταπτυχιακό Εξειδίκευσης σε Deep Learning & Επιστήμη Δεδομένων',
     org: 'KSchool',
-    period: 'Nov 2022 – May 2023',
+    period: 'Νοε 2022 – Μαΐ 2023',
     logo: '/images/logos/logo-kschool.jpg',
   },
   {
-    role: 'Data Analytics Bootcamp',
+    role: 'Bootcamp Ανάλυσης Δεδομένων',
     org: 'Ironhack',
-    period: 'Mar 2022 – Jun 2022',
+    period: 'Μαρ 2022 – Ιουν 2022',
     logo: '/images/logos/logo-ironhack.jpg',
   },
   {
-    role: "Bachelor's Degree in International Relations",
+    role: 'Πτυχίο Διεθνών Σχέσεων',
     org: 'Universidad Alfonso X el Sabio (UAX)',
-    period: 'Sep 2016 – Jun 2022',
+    period: 'Σεπτ 2016 – Ιουν 2022',
     logo: '/images/logos/logo-uax.jpg',
     thesis: {
-      title: 'Geoeconomic dimension of the Silk Road Initiative',
+      title: 'Γεωοικονομική διάσταση της Πρωτοβουλίας του Δρόμου του Μεταξιού',
     },
     grade: {
       average: 9.17,
@@ -77,140 +77,140 @@ const education = [
     },
   },
   {
-    role: "Bachelor's Degree in Business Administration",
+    role: 'Πτυχίο Διοίκησης Επιχειρήσεων',
     org: 'Universidad Alfonso X el Sabio (UAX)',
-    period: 'Sep 2018 – Jul 2021',
+    period: 'Σεπτ 2018 – Ιουλ 2021',
     logo: '/images/logos/logo-uax.jpg',
     thesis: {
-      title: 'Impact of economic freedom on political participation rights and civil liberties',
+      title: 'Επίδραση της οικονομικής ελευθερίας στα δικαιώματα πολιτικής συμμετοχής και τις πολιτικές ελευθερίες',
     },
     grade: {
       average: 9.62,
       honorsSubjects: 12,
     },
-    award: 'Candidate for IV Thesis Award',
+    award: 'Υποψήφιος για το IV Βραβείο Διπλωματικής',
   },
 ];
 ---
 
 <BaseLayout
-  title="Career — Jaime Garcia Chaparro"
-  description="Professional experience and education of Jaime Garcia Chaparro, Senior AI Engineer."
+  title="Καριέρα — Jaime Garcia Chaparro"
+  description="Επαγγελματική εμπειρία και εκπαίδευση του Jaime Garcia Chaparro, Senior AI Engineer."
 >
   <section class="mx-auto max-w-3xl px-4 py-4 sm:px-6 sm:py-8">
     <header class="mb-4 sm:mb-6">
-      <h1 class="text-4xl font-bold tracking-tight sm:text-5xl">Career</h1>
+      <h1 class="text-4xl font-bold tracking-tight sm:text-5xl">Καριέρα</h1>
       <p class="mt-4 text-lg text-slate-600 dark:text-slate-400">
-        From international relations to applied AI — a path through data science, NLP, and production machine learning.
-        A passionate polyglot with knowledge of 8 languages: Spanish, English, French, Greek, Russian, Belarusian, Mandarin Chinese, and Tsakonian.
+        Από τις Διεθνείς Σχέσεις στην εφαρμοσμένη ΤΝ — ένα ταξίδι μέσα από την επιστήμη δεδομένων, το NLP και τη μηχανική μάθηση σε παραγωγή.
+        Ένθερμος πολύγλωσσος με γνώση 8 γλωσσών: ισπανικά, αγγλικά, γαλλικά, ελληνικά, ρωσικά, λευκορωσικά, κινεζικά μανδαρίνα και τσακώνικα.
       </p>
       <div class="mt-6 flex justify-center">
         <a href="/cv-jaime-garcia-chaparro-2026.pdf" class="btn-primary" download>
           <Icon name="heroicons:arrow-down-tray-20-solid" class="h-5 w-5" />
-          Download Resume (PDF)
+          Λήψη βιογραφικού (PDF)
         </a>
       </div>
     </header>
 
-    <!-- Experience -->
+    <!-- Επαγγελματική Εμπειρία -->
     <div class="mb-8 sm:mb-16">
       <h2 class="mb-6 flex items-center gap-2 text-sm font-bold uppercase tracking-widest text-brand-700 dark:text-blue-400 sm:mb-8">
         <Icon name="heroicons:briefcase-20-solid" class="h-5 w-5" />
-        Professional Experience
+        Επαγγελματική Εμπειρία
       </h2>
       <ol class="ml-1">
         {
           experience.map((item, i) => (
-            <TimelineItem {...item} last={i === experience.length - 1} />
+            <TimelineItem {...item} lang="el" last={i === experience.length - 1} />
           ))
         }
       </ol>
     </div>
 
-    <!-- Education -->
+    <!-- Εκπαίδευση -->
     <div>
       <h2 class="mb-6 flex items-center gap-2 text-sm font-bold uppercase tracking-widest text-brand-700 dark:text-blue-400 sm:mb-8">
         <Icon name="heroicons:academic-cap-20-solid" class="h-5 w-5" />
-        Education
+        Εκπαίδευση
       </h2>
       <ol class="ml-1">
         {
           education.map((item, i) => (
-            <TimelineItem {...item} last={i === education.length - 1} />
+            <TimelineItem {...item} lang="el" last={i === education.length - 1} />
           ))
         }
       </ol>
     </div>
 
-    <!-- Languages -->
+    <!-- Γλώσσες -->
     <div class="mt-8 sm:mt-16">
       <h2 class="mb-6 flex items-center gap-2 text-sm font-bold uppercase tracking-widest text-brand-700 dark:text-blue-400">
         <Icon name="heroicons:language-solid" class="h-5 w-5" />
-        Languages
+        Γλώσσες
       </h2>
       <div class="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">
         <div class="rounded-lg border border-slate-200 bg-slate-50 p-4 dark:border-white/10 dark:bg-white/5">
           <p class="flex items-center gap-2 font-semibold text-slate-900 dark:text-slate-50">
             <span class="text-lg">🇪🇸</span>
-            Spanish
+            Ισπανικά
           </p>
-          <p class="text-sm text-slate-600 dark:text-slate-400">Native</p>
+          <p class="text-sm text-slate-600 dark:text-slate-400">Μητρική γλώσσα</p>
         </div>
         <div class="rounded-lg border border-slate-200 bg-slate-50 p-4 dark:border-white/10 dark:bg-white/5">
           <p class="flex items-center gap-2 font-semibold text-slate-900 dark:text-slate-50">
             <span class="text-lg">🇬🇧</span>
-            English
+            Αγγλικά
           </p>
-          <p class="text-sm text-slate-600 dark:text-slate-400">C2 (Proficiency)</p>
+          <p class="text-sm text-slate-600 dark:text-slate-400">C2 (Άριστη Γνώση)</p>
           <p class="mt-2 text-xs text-slate-500 dark:text-slate-500">Cambridge English Certificate, University of Cambridge</p>
         </div>
         <div class="rounded-lg border border-slate-200 bg-slate-50 p-4 dark:border-white/10 dark:bg-white/5">
           <p class="flex items-center gap-2 font-semibold text-slate-900 dark:text-slate-50">
             <span class="text-lg">🇬🇷</span>
-            Greek
+            Ελληνικά
           </p>
-          <p class="text-sm text-slate-600 dark:text-slate-400">B2 (Upper-Intermediate)</p>
+          <p class="text-sm text-slate-600 dark:text-slate-400">B2 (Ανώτερο Μεσαίο)</p>
           <p class="mt-2 text-xs text-slate-500 dark:text-slate-500">Greek Language Center (B1)</p>
         </div>
         <div class="rounded-lg border border-slate-200 bg-slate-50 p-4 dark:border-white/10 dark:bg-white/5">
           <p class="flex items-center gap-2 font-semibold text-slate-900 dark:text-slate-50">
             <span class="text-lg">🇫🇷</span>
-            French
+            Γαλλικά
           </p>
-          <p class="text-sm text-slate-600 dark:text-slate-400">B2 (Upper-Intermediate)</p>
+          <p class="text-sm text-slate-600 dark:text-slate-400">B2 (Ανώτερο Μεσαίο)</p>
           <p class="mt-2 text-xs text-slate-500 dark:text-slate-500">DELF B2, Alliance Française Málaga</p>
         </div>
         <div class="rounded-lg border border-slate-200 bg-slate-50 p-4 dark:border-white/10 dark:bg-white/5">
           <p class="flex items-center gap-2 font-semibold text-slate-900 dark:text-slate-50">
             <span class="text-lg">🇷🇺</span>
-            Russian
+            Ρωσικά
           </p>
-          <p class="text-sm text-slate-600 dark:text-slate-400">B1 (Intermediate)</p>
+          <p class="text-sm text-slate-600 dark:text-slate-400">B1 (Μεσαίο)</p>
           <p class="mt-2 text-xs text-slate-500 dark:text-slate-500">Escuela Oficial de Idiomas de Málaga</p>
         </div>
         <div class="rounded-lg border border-slate-200 bg-slate-50 p-4 dark:border-white/10 dark:bg-white/5">
           <p class="flex items-center gap-2 font-semibold text-slate-900 dark:text-slate-50">
             <span class="text-lg">🇧🇾</span>
-            Belarusian
+            Λευκορωσικά
           </p>
-          <p class="text-sm text-slate-600 dark:text-slate-400">B1 (Intermediate)</p>
+          <p class="text-sm text-slate-600 dark:text-slate-400">B1 (Μεσαίο)</p>
           <p class="mt-2 text-xs text-slate-500 dark:text-slate-500">International Summer School of Belarusian</p>
         </div>
         <div class="rounded-lg border border-slate-200 bg-slate-50 p-4 dark:border-white/10 dark:bg-white/5">
           <p class="flex items-center gap-2 font-semibold text-slate-900 dark:text-slate-50">
             <span class="text-lg">🇨🇳</span>
-            Mandarin Chinese
+            Κινεζικά Μανδαρίνα
           </p>
-          <p class="text-sm text-slate-600 dark:text-slate-400">B1 (Intermediate)</p>
+          <p class="text-sm text-slate-600 dark:text-slate-400">B1 (Μεσαίο)</p>
           <p class="mt-2 text-xs text-slate-500 dark:text-slate-500">HSK4, Hanban Confucius Institute</p>
         </div>
         <div class="rounded-lg border border-slate-200 bg-slate-50 p-4 dark:border-white/10 dark:bg-white/5">
           <p class="flex items-center gap-2 font-semibold text-slate-900 dark:text-slate-50">
             <span class="text-lg">🇬🇷</span>
-            Tsakonian
+            Τσακώνικα
           </p>
-          <p class="text-sm text-slate-600 dark:text-slate-400">A2 (Elementary)</p>
-          <p class="mt-2 text-xs text-slate-500 dark:text-slate-500">Self-taught</p>
+          <p class="text-sm text-slate-600 dark:text-slate-400">A2 (Βασικό)</p>
+          <p class="mt-2 text-xs text-slate-500 dark:text-slate-500">Αυτοδίδακτος</p>
         </div>
       </div>
     </div>

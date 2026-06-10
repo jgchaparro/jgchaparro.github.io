@@ -18,9 +18,16 @@ interface Props {
   coursework?: string[];
   /** Render the connector line below the dot (false for the last item). */
   last?: boolean;
+  lang?: 'en' | 'es' | 'el';
 }
 
-const { role, org, period, location, description, logo, thesis, grade, award, coursework, last = false } = Astro.props;
+const { role, org, period, location, description, logo, thesis, grade, award, coursework, last = false, lang = 'en' } = Astro.props;
+
+const lbl = {
+  en: { thesis: 'Thesis', coursework: 'Coursework', award: 'Award', subjects: 'subjects with honors', gpa: 'GPA' },
+  es: { thesis: 'Tesis', coursework: 'Asignaturas', award: 'Premio', subjects: 'asignaturas con matrícula de honor', gpa: 'Nota media' },
+  el: { thesis: 'Διπλωματική', coursework: 'Μαθήματα', award: 'Βραβείο', subjects: 'μαθήματα με άριστα', gpa: 'Βαθμός' },
+}[lang];
 ---
 
 <li class="relative flex gap-5 pb-10 last:pb-0">
@@ -75,7 +82,7 @@ const { role, org, period, location, description, logo, thesis, grade, award, co
       thesis && (
         <div class="mt-3 border-l-2 border-slate-200 pl-3 dark:border-white/10">
           <p class="text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400">
-            Thesis
+            {lbl.thesis}
           </p>
           <p class="mt-1 text-sm font-semibold text-slate-900 dark:text-slate-50">
             {thesis.title}
@@ -96,12 +103,12 @@ const { role, org, period, location, description, logo, thesis, grade, award, co
         <div class="mt-3 flex flex-col gap-2 text-sm">
           <div>
             <p class="font-semibold text-slate-900 dark:text-slate-50">
-              GPA: <span class="text-brand-700 dark:text-blue-400">{grade.average}</span>
+              {lbl.gpa}: <span class="text-brand-700 dark:text-blue-400">{grade.average}</span>
             </p>
             {
               grade.honorsSubjects && (
                 <p class="text-slate-600 dark:text-slate-400">
-                  {grade.honorsSubjects} subjects with honors
+                  {grade.honorsSubjects} {lbl.subjects}
                 </p>
               )
             }
@@ -113,7 +120,7 @@ const { role, org, period, location, description, logo, thesis, grade, award, co
     {
       award && (
         <p class="mt-2 text-sm text-slate-600 dark:text-slate-400">
-          <span class="font-semibold text-slate-900 dark:text-slate-50">Award:</span> {award}
+          <span class="font-semibold text-slate-900 dark:text-slate-50">{lbl.award}:</span> {award}
         </p>
       )
     }
@@ -122,7 +129,7 @@ const { role, org, period, location, description, logo, thesis, grade, award, co
       coursework && coursework.length > 0 && (
         <div class="mt-3">
           <p class="text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400">
-            Coursework
+            {lbl.coursework}
           </p>
           <div class="mt-2 flex flex-wrap gap-2">
             {

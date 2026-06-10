@@ -49,7 +49,7 @@ tsakonian:
     description: >-
       Research article exploring the history and prospects of lexicographical work
       on the Tsakonian dialect within the broader context of Modern Greek dialectology.
-    category: Research
+    category: Journal article
     url: https://www.researchgate.net/publication/384035114_About_Modern_Greek_dialectal_lexicography_and_Tsakonian_dialect_History_and_prospect
     status: ready
 
@@ -77,7 +77,7 @@ other:
       of 12,904 settlements, revealing how regional suffixes, administrative divisions, and linguistic
       features create distinct naming patterns across mainland Greece and islands.
     category: Research
-    url: /en/research/greek-toponyms-geography
+    url: /research/greek-toponyms-geography
     image: /images/greek-toponyms-header.png
     status: ready
 

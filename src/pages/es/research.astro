@@ -1,0 +1,80 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Card from '../../components/Card.astro';
+import { Icon } from 'astro-icon/components';
+import projects from '../../data/projects.yaml';
+
+interface Project {
+  title: string;
+  description: string;
+  category: string;
+  url: string | null;
+  status: 'ready' | 'wip';
+}
+
+const tsakonian = projects.tsakonian as Project[];
+const other = projects.other as Project[];
+---
+
+<BaseLayout
+  title="Investigación — Jaime Garcia Chaparro"
+  description="Investigación y proyectos de Jaime Garcia Chaparro: preservación del tsakonio, NLP y visualización de datos."
+>
+  <section class="mx-auto max-w-5xl px-4 py-4 sm:px-6 sm:py-8">
+    <header class="mb-4 max-w-5xl sm:mb-6">
+      <h1 class="text-4xl font-bold tracking-tight sm:text-5xl">Investigación</h1>
+      <p class="mt-4 text-lg text-slate-600 dark:text-slate-400">
+        Mi investigación se centra en la preservación del <strong class="font-semibold text-slate-800 dark:text-slate-200">tsakonio</strong> mediante herramientas de IA y datos, junto con otros proyectos de análisis de datos sobre Grecia y Chipre, así como investigación económica.
+      </p>
+    </header>
+
+    <!-- Tsakonian -->
+    <h2 class="mb-3 text-sm font-bold uppercase tracking-widest text-brand-700 dark:text-blue-400">
+      Preservación de la Lengua Tsakonia
+    </h2>
+    <div class="mb-6 flex items-center gap-2">
+      <span class="text-xs text-slate-500 dark:text-slate-400">Tsakonian Digital:</span>
+      <a
+        href="https://www.linkedin.com/company/tsakoniandigital/"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="LinkedIn"
+        title="LinkedIn"
+        class="grid h-7 w-7 place-items-center rounded-lg border border-slate-200 text-slate-500 transition-colors hover:border-brand-700 hover:text-brand-700 dark:border-white/10 dark:text-slate-400 dark:hover:border-blue-400 dark:hover:text-blue-400"
+      >
+        <Icon name="lucide:linkedin" class="h-3.5 w-3.5" />
+      </a>
+      <a
+        href="https://x.com/TsakonianDGT"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="X"
+        title="X"
+        class="grid h-7 w-7 place-items-center rounded-lg border border-slate-200 text-slate-500 transition-colors hover:border-brand-700 hover:text-brand-700 dark:border-white/10 dark:text-slate-400 dark:hover:border-blue-400 dark:hover:text-blue-400"
+      >
+        <Icon name="lucide:x" class="h-3.5 w-3.5" />
+      </a>
+      <a
+        href="https://www.facebook.com/people/Tsakonian-Digital/61563508664721/"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Facebook"
+        title="Facebook"
+        class="grid h-7 w-7 place-items-center rounded-lg border border-slate-200 text-slate-500 transition-colors hover:border-brand-700 hover:text-brand-700 dark:border-white/10 dark:text-slate-400 dark:hover:border-blue-400 dark:hover:text-blue-400"
+      >
+        <Icon name="lucide:facebook" class="h-3.5 w-3.5" />
+      </a>
+    </div>
+    <div class="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
+      {tsakonian.map((p) => <Card {...p} href={p.url} />)}
+    </div>
+
+    <!-- Other -->
+    <h2 class="mb-6 mt-16 text-sm font-bold uppercase tracking-widest text-brand-700 dark:text-blue-400">
+      Otros Proyectos
+    </h2>
+    <div class="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
+      {other.map((p) => <Card {...p} href={p.url} />)}
+    </div>
+  </section>
+</BaseLayout>

@@ -1,9 +1,17 @@
 ---
-// Language toggle — EN active, ES/EL wired but deferred (point to EN for now).
+const raw = Astro.url.pathname;
+const lang = raw.startsWith('/es') ? 'es' : raw.startsWith('/el') ? 'el' : 'en';
+const canonical = lang === 'en' ? raw : (raw.slice(lang.length + 1) || '/');
+
+const localePath = (code: string) => {
+  if (code === 'en') return canonical;
+  return canonical === '/' ? `/${code}` : `/${code}${canonical}`;
+};
+
 const locales = [
-  { code: 'en', label: 'EN', href: '/en/', active: true },
-  { code: 'es', label: 'ES', href: '/en/', active: false },
-  { code: 'el', label: 'EL', href: '/en/', active: false },
+  { code: 'en', label: 'EN', active: lang === 'en' },
+  { code: 'es', label: 'ES', active: lang === 'es' },
+  { code: 'el', label: 'EL', active: lang === 'el' },
 ];
 ---
 
@@ -11,9 +19,9 @@ const locales = [
   {
     locales.map((locale) => (
       <a
-        href={locale.href}
+        href={localePath(locale.code)}
         aria-current={locale.active ? 'true' : undefined}
-        title={locale.active ? `${locale.label} (current)` : `${locale.label} — coming soon`}
+        title={locale.label}
         class:list={[
           'rounded-md px-1.5 py-0.5 transition-colors sm:px-2 sm:py-1',
           locale.active
