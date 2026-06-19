@@ -6,8 +6,11 @@ import projects from '../../data/projects.yaml';
 
 interface Project {
   title: string;
+  title_es?: string;
   description: string;
+  description_es?: string;
   category: string;
+  category_es?: string;
   url: string | null;
   status: 'ready' | 'wip';
 }
@@ -66,7 +69,7 @@ const other = projects.other as Project[];
       </a>
     </div>
     <div class="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
-      {tsakonian.map((p) => <Card {...p} href={p.url} />)}
+      {tsakonian.map((p) => <Card {...p} title={p.title_es ?? p.title} description={p.description_es ?? p.description} category={p.category_es ?? p.category} visitText="Visitar" href={p.url} />)}
     </div>
 
     <!-- Other -->
@@ -74,7 +77,7 @@ const other = projects.other as Project[];
       Otros Proyectos
     </h2>
     <div class="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
-      {other.map((p) => <Card {...p} href={p.url} />)}
+      {other.map((p) => <Card {...p} title={p.title_es ?? p.title} description={p.description_es ?? p.description} category={p.category_es ?? p.category} visitText="Visitar" href={p.url} />)}
     </div>
   </section>
 </BaseLayout>

@@ -10,9 +10,10 @@ interface Props {
   image?: string | null;
   /** 'ready' renders full opacity; 'wip' dims the card and shows a badge. */
   status?: 'ready' | 'wip';
+  visitText?: string;
 }
 
-const { title, description, category, href, logo, image, status = 'ready' } = Astro.props;
+const { title, description, category, href, logo, image, status = 'ready', visitText = 'Visit' } = Astro.props;
 
 const isLink = Boolean(href);
 const Tag = isLink ? 'a' : 'div';
@@ -72,7 +73,7 @@ const isWip = status === 'wip';
   {
     isLink && (
       <span class="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand-700 transition-colors group-hover:gap-2 dark:text-blue-400">
-        Visit
+        {visitText}
         <Icon name="heroicons:arrow-up-right-20-solid" class="h-4 w-4 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
       </span>
     )

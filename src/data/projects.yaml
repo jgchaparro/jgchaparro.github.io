@@ -1,55 +1,120 @@
-# Research & projects shown on /en/research as a card grid.
+# Research & projects shown on /research as a card grid.
 # status: "ready" = live/linkable, "wip" = in progress (dimmed + badge)
 
 tsakonian:
   - title: Tsakonian Digital Dictionary
+    title_es: Diccionario Digital Tsakonio
+    title_el: Τσακώνικο Ψηφιακό Λεξικό
     description: >-
       A trilingual (Greek / English / Spanish) digital dictionary for Tsakonian,
       a critically endangered Doric Greek dialect — making the language searchable
       and accessible online for the first time.
+    description_es: >-
+      Un diccionario digital trilingüe (griego / inglés / español) para el tsakonio,
+      un dialecto del griego dórico en peligro crítico — que hace que la lengua sea
+      buscable y accesible en línea por primera vez.
+    description_el: >-
+      Ένα τρίγλωσσο (ελληνικά / αγγλικά / ισπανικά) ψηφιακό λεξικό για τα Τσακώνικα,
+      ένα απειλούμενο με εξαφάνιση δωρικό ελληνικό διάλεκτο — που κάνει τη γλώσσα
+      αναζητήσιμη και προσβάσιμη διαδικτυακά για πρώτη φορά.
     category: Tsakonian
+    category_es: Tsakonia
+    category_el: Τσακώνικα
     url: https://tsakoniandigital.com/
     logo: /images/logos/logo-tsakonian-digital.png
     status: ready
 
   - title: Tsakonian Digital Vault
+    title_es: Bóveda Digital Tsakonia
+    title_el: Τσακώνικο Ψηφιακό Θησαυρό
     description: >-
       A structured repository of comprehensive information on the Tsakonian language,
       covering its history, grammar, and learning resources.
+    description_es: >-
+      Un repositorio estructurado de información completa sobre la lengua tsakonia,
+      que cubre su historia, gramática y recursos de aprendizaje.
+    description_el: >-
+      Ένα δομημένο αποθετήριο πλήρους πληροφόρησης για την τσακώνικη γλώσσα,
+      που καλύπτει την ιστορία, τη γραμματική και τους πόρους μάθησής της.
     category: Tsakonian
+    category_es: Tsakonia
+    category_el: Τσακώνικα
     url: https://jgchaparro.github.io/tsakonian_digital_vault/
     logo: /images/logos/logo-tsakonian-digital-vault.png
     status: ready
 
   - title: Tsakonian AI Translation Models
+    title_es: Modelos de Traducción IA Tsakonia
+    title_el: Μοντέλα μηχανικής μετάφρασης ΤΝ για την Τσακώνικη γλώσσα
     description: >-
       Neural machine-translation models for Tsakonian, tackling the hard problem
       of building NLP systems for an extremely low-resource language.
+    description_es: >-
+      Modelos de traducción automática neuronal para el tsakonio, abordando el difícil
+      problema de construir sistemas de PLN para una lengua con recursos extremadamente escasos.
+    description_el: >-
+      Νευρωνικά μοντέλα μηχανικής μετάφρασης για τα Τσακώνικα, αντιμετωπίζοντας
+      το δύσκολο πρόβλημα της κατασκευής συστημάτων NLP για μια γλώσσα με εξαιρετικά
+      περιορισμένους πόρους.
     category: Tsakonian
+    category_es: Tsakonia
+    category_el: Τσακώνικα
     url: https://huggingface.co/jgchaparro/language_garden-tsd-ell-9B-bl-GGUF
     status: ready
 
   - title: Simple Kostakis Orthography
+    title_es: Ortografía Simplificada Kostakis
+    title_el: Απλοποιημένη Ορθογραφία Κωστάκης
     description: >-
       A simplified, consistent orthographic standard for writing Tsakonian, lowering
       the barrier for learners and digital tooling.
+    description_es: >-
+      Un estándar ortográfico simplificado y coherente para escribir el tsakonio,
+      que reduce la barrera para los aprendices y las herramientas digitales.
+    description_el: >-
+      Ένα απλοποιημένο, συνεπές ορθογραφικό πρότυπο για τη γραφή των Τσακώνικων,
+      που μειώνει το εμπόδιο για τους μαθητές και τα ψηφιακά εργαλεία.
     category: Tsakonian
+    category_es: Tsakonia
+    category_el: Τσακώνικα
     url: https://tsakoniandigital.com/orthography
     status: ready
 
   - title: Tsakonian Transliteration System
+    title_es: Sistema de Transliteración Tsakonia
+    title_el: Σύστημα μεταγραφής Τσακώνικης γλώσσας
     description: >-
       A transliteration system mapping Tsakonian phonology to Latin script,
       enabling consistent digital input and cross-language alignment.
+    description_es: >-
+      Un sistema de transliteración que mapea la fonología tsakonia al alfabeto latino,
+      permitiendo una entrada digital coherente y la alineación entre lenguas.
+    description_el: >-
+      Ένα σύστημα μεταγραφής που αντιστοιχεί την τσακώνικη φωνολογία στο λατινικό
+      αλφάβητο, επιτρέποντας συνεπή ψηφιακή εισαγωγή και διαγλωσσική ευθυγράμμιση.
     category: Tsakonian
+    category_es: Tsakonia
+    category_el: Τσακώνικα
     url: https://jgchaparro.github.io/tsakonian_digital_vault/English/3.-Writing/3.2-Transliteration
     status: ready
 
   - title: Modern Greek Dialectal Lexicography and Tsakonian
+    title_es: Lexicografía Dialectal Griega Moderna y Tsakonia
+    title_el: Σύγχρονη Ελληνική Διαλεκτική Λεξικογραφία και Τσακώνικα
     description: >-
       Research article exploring the history and prospects of lexicographical work
       on the Tsakonian dialect within the broader context of Modern Greek dialectology.
+    description_es: >-
+      Artículo de investigación que explora la historia y las perspectivas del trabajo
+      lexicográfico sobre el dialecto tsakonio en el contexto más amplio de la
+      dialectología griega moderna.
+    description_el: >-
+      Ερευνητικό άρθρο που εξερευνά την ιστορία και τις προοπτικές του λεξικογραφικού
+      έργου για τον τσακώνικο διάλεκτο στο ευρύτερο πλαίσιο της νεοελληνικής
+      διαλεκτολογίας.
     category: Journal article
+    category_es: Artículo académico
+    category_el: Ακαδημαϊκό άρθρο
     url: https://www.researchgate.net/publication/384035114_About_Modern_Greek_dialectal_lexicography_and_Tsakonian_dialect_History_and_prospect
     status: ready
 
@@ -58,7 +123,15 @@ other:
     description: >-
       An interactive toponym map and dashboard of Cyprus, visualizing place-name
       data across the island.
+    description_es: >-
+      Un mapa interactivo de topónimos y panel de datos de Chipre, que visualiza
+      datos de nombres de lugares en toda la isla.
+    description_el: >-
+      Ένας διαδραστικός χάρτης τοπωνυμίων και πίνακας δεδομένων της Κύπρου, που
+      οπτικοποιεί δεδομένα ονομάτων τόπων σε ολόκληρο το νησί.
     category: Data
+    category_es: Datos
+    category_el: Δεδομένα
     url: https://public.tableau.com/app/profile/jgchaparro/viz/ToponymmapofCyprus/Toponymdashboard
     image: /images/cyprusdb-header.jpg
     status: ready
@@ -67,24 +140,56 @@ other:
     description: >-
       A structured database of Greek geographic and linguistic data, supporting
       toponymic and dialectal research.
+    description_es: >-
+      Una base de datos estructurada de datos geográficos y lingüísticos griegos,
+      que apoya la investigación toponímica y dialectal.
+    description_el: >-
+      Μια δομημένη βάση δεδομένων ελληνικών γεωγραφικών και γλωσσολογικών δεδομένων,
+      που υποστηρίζει τοπωνυμική και διαλεκτολογική έρευνα.
     category: Data
+    category_es: Datos
+    category_el: Δεδομένα
     url: https://github.com/jgchaparro/HellasDB
     status: ready
 
   - title: Exploring the Geography of Greek Toponyms
+    title_es: Explorando la Geografía de los Topónimos Griegos
+    title_el: Εξερεύνηση της Γεωγραφίας των Ελληνικών Τοπωνυμίων
     description: >-
       A data-driven analysis of geographic patterns in Greek place names using the Hellas DB database
       of 12,904 settlements, revealing how regional suffixes, administrative divisions, and linguistic
       features create distinct naming patterns across mainland Greece and islands.
+    description_es: >-
+      Un análisis basado en datos de los patrones geográficos en los topónimos griegos usando la base
+      de datos Hellas DB de 12.904 asentamientos, que revela cómo los sufijos regionales, las divisiones
+      administrativas y los rasgos lingüísticos crean patrones de nomenclatura distintos en la Grecia
+      continental y las islas.
+    description_el: >-
+      Μια δεδομένα-κεντρική ανάλυση των γεωγραφικών μοτίβων στα ελληνικά τοπωνύμια χρησιμοποιώντας
+      τη βάση δεδομένων Hellas DB των 12.904 οικισμών, αποκαλύπτοντας πώς τα περιφερειακά επιθήματα,
+      οι διοικητικές διαιρέσεις και τα γλωσσολογικά χαρακτηριστικά δημιουργούν διακριτά μοτίβα
+      ονοματολογίας στην ηπειρωτική Ελλάδα και τα νησιά.
     category: Research
+    category_es: Investigación
+    category_el: Έρευνα
     url: /research/greek-toponyms-geography
     image: /images/greek-toponyms-header.png
     status: ready
 
   - title: Impact of economic freedom on political participation rights and civil liberties
+    title_es: Impacto de la libertad económica en los derechos de participación política y las libertades civiles
+    title_el: Επίδραση της οικονομικής ελευθερίας στα δικαιώματα πολιτικής συμμετοχής και τις ατομικές ελευθερίες
     description: >-
       Research analyzing the impact of economic freedom on social freedom — bridging quantitative
       methods with international-relations questions.
+    description_es: >-
+      Investigación que analiza el impacto de la libertad económica en la libertad social —
+      uniendo métodos cuantitativos con preguntas de relaciones internacionales.
+    description_el: >-
+      Έρευνα που αναλύει την επίδραση της οικονομικής ελευθερίας στην κοινωνική ελευθερία —
+      γεφυρώνοντας ποσοτικές μεθόδους με ερωτήματα διεθνών σχέσεων.
     category: Research
+    category_es: Investigación
+    category_el: Έρευνα
     url: null
     status: wip
