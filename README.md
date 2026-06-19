@@ -139,6 +139,8 @@ Personal portfolio. See LICENSE file (if applicable).
 ## Contact
 
 - **Email:** jgchaparro@outlook.com
+
+<!-- Last updated: 2026-06-19 -->
 - **LinkedIn:** [jgchaparro](https://linkedin.com/in/jgchaparro)
 - **GitHub:** [jgchaparro](https://github.com/jgchaparro)
 - **Tsakonian Digital:** [tsakoniandigital.com](https://tsakoniandigital.com)
